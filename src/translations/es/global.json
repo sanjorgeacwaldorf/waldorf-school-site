@@ -1,0 +1,60 @@
+{
+  "navbar": {
+    "donate": "Donar"
+  },
+  "landing" : {
+    "title": "Te vamos a contar un sueño…",
+    "text": "| Jardin de Infantes Puente de Estrellas || Escuela Primaria Micael || Pedagogia Waldorf |"
+  },
+  "about" : {
+    "title": "Y el Sueño Comenzaba…",
+    "text": "Alla por el año 2002… se produjo un encuentro entre maestras que traían una iniciativa para fundar un Jardín de infantes Waldorf en Córdoba Capital, en conjunto con un grupo de padres y madres movilizados por las mismas inquietudes desde hacía muchos años.",
+    "text2": "Luego de un arduo trabajo, en el año 2003 comenzaba su actividad el jardín para la infancia “Puente de Estrellas”, en la ciudad de Córdoba, Argentina."
+  },
+  "info" : {
+    "text" : "En el paso de estos años muchos niños y niñas han potenciado sus habilidades artísticas y creativas en una atmósfera hogareña, de forma libre y relajada, respetando el desarrollo individual."
+  },
+  "about2" : {
+    "title" : "Un Poco de Nuestra Historia",
+    "text1" : "Somos una escuela de Pedagogía Waldorf , esta enseñanza tiene más de 100 años de experiencia y es reconocida por la UNESCO como una educación para el futuro, integrando las artes y lo académico desde el preescolar hasta el egreso.",
+    "text2" : "Hace 19 años que nuestra escuela funciona en la ciudad de Cordoba capital, provincia de Cordoba, Argentina con una modalidad no adscripta a la enseñanza oficial.",
+    "text3" : "En ella funcionan los niveles de Jardin de Infantes, Escuela Primaria y existe un impulso para la creación de una Escuela Secundaria, sumando más de 130 alumnos y alumnas con una proyección mayor en los años venideros.",
+    "text4" : "Entre los 25 integrantes del grupo de maestros y maestras, contamos con artistas excelentes en sus areas, así como docentes graduados y profesores del seminario de formación en pegagogia Waldorf.",
+    "text5" : "Con ambientes cálidos y seguros es administrada por la asociación San Jorge, una asociación civil sin fines de lucro conformada por padres, madres, maestras y maestros de la escuela.",
+    "text6" : "Actualmente, 104 familias colaboran de manera autogestiva y fraterna en el sostenimiento económico-legal así como también, en el mantenimiento de las instalaciones despertando el desarrollo e integración social en la comunidad."
+  },
+  "donate" : {
+    "title" : "¡Ayudanos a Comprar La Casa Donde Funciona Nuestra Escuela!",
+    "subtitle" : "Te Contamos el Porque y Te Agradecemos",
+    "text1": "La escuela funciona en una casa que alquilamos y nos queda poco tiempo de contrato para luego ser puesta a la venta.",
+    "text2": "Nosotros ya comenzamos a recaudar donaciones dentro de la comunidad y te invitamos con una inmensa gratitud, a que colabores para que el sueño se haga realidad garantizando la continuidad del proyecto comunitario que con tanto amor y empeño venimos cuidando.",
+    "text3": "Con tu cálido gesto estas ayudando a la educación para un futuro mejor.",
+    "text4": "Muchas gracias!"
+  },
+
+
+  "form" : {
+    "title" : "Colabora con Tu Donacion Online",
+    "footer_title" : "O Haciendo una Transferencia",
+    "footer_text1": "SAN JORGE PROY EDUC WALDORF ASOC CIVIL",
+    "footer_text2": "CUIT: 30-71425482-7",
+    "footer_text3": "CUENTA CORRIENTE: 216 - 000118422",
+    "footer_text4": "CBU: 0720216420000001184222"
+  },
+  "donateForm" : {
+    "toogleN" : "Nacional",
+    "toogleI" : "Internacional",
+    "toogleNDesc" : "Argentina",
+    "toogleIDesc" : "Fuera de Argentina",
+    "montolibre" : "Otro",
+    "label1" : "Pre-Seleccione un Monto:"
+  },
+
+  "footer" : {
+    "social" : "Podes Colaborar Compartiendo en Nuestras Redes",
+    "maps" : "Aca Estamos",
+    "contact" : "Contactate",
+    "designby": "Realizado por padres y madres de la escuela - 2022"
+  }
+
+}

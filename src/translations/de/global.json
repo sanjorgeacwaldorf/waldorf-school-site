@@ -1,0 +1,57 @@
+{
+  "navbar": {
+    "donate": "Schenken"
+  },
+  "landing" : {
+    "title": "Wir werden Ihnen einen Traum erzählen...",
+    "text": "| Kindergarten Puente de Estrellas || Grundschule Micael || Waldorfpädagogik |"
+  },
+  "about" : {
+    "title": "Und der Traum Begann...",
+    "text": "Damals im Jahr 2002… gab es ein Treffen zwischen Lehrern, die eine Initiative zur Gründung eines Waldorfkindergartens in der Hauptstadt Córdoba mitbrachten, zusammen mit einer Gruppe von Vätern und Müttern, die seit vielen Jahren von denselben Anliegen mobilisiert wurden.",
+    "text2": "Nach harter Arbeit nahm der Kindergarten „Puente de Estrellas“ im Jahr 2003 seine Tätigkeit in der Stadt Córdoba, Argentinien, auf."
+  },
+  "info" : {
+    "text" : "Im Laufe der Jahre haben viele Kinder ihre künstlerischen und kreativen Fähigkeiten in einer häuslichen Atmosphäre auf freie und entspannte Weise und unter Berücksichtigung der individuellen Entwicklung erweitert."
+  },
+  "about2" : {
+    "title" : "Ein Bisschen Unsere Geschichte",
+    "text1" : "Wir sind eine Schule für Waldorfpädagogik, dieser Unterricht hat mehr als 100 Jahre Erfahrung und ist von der UNESCO als Bildung für die Zukunft anerkannt, die Kunst und Wissenschaft von der Vorschule bis zum Abschluss integriert.",
+    "text2" : "Unsere Schule ist seit 19 Jahren in der Hauptstadt Cordoba, Provinz Cordoba, Argentinien, mit einer Modalität tätig, die nicht mit der offiziellen Bildung verbunden ist.",
+    "text3" : "Der Kindergarten und die GrundschuleKindergarten- und Grundschulstufen arbeiten und es gibt einen Impuls zur Schaffung einer High School mit mehr als 130 männlichen und weiblichen Schülern mit einer größeren Projektion in den kommenden Jahren. Ebenen arbeiten dort und es gibt einen Impuls, eine High School mit mehr als 130 männlichen und weiblichen Schülern zu gründen, mit einer größeren Projektion in den kommenden Jahren.",
+    "text4" : "Unter den 25 Mitgliedern des Lehrerkreises haben wir exzellente Künstler ihres Fachs, sowie Absolventen und Dozenten des Waldorfpädagogik-Seminars.",
+    "text5" : "Es bietet eine warme und sichere Umgebung und wird von der San Jorge Association verwaltet, einer gemeinnützigen Zivilvereinigung, die sich aus Eltern und Lehrern der Schule zusammensetzt.",
+    "text6" : "Derzeit arbeiten 104 Familien in selbstverwalteter und brüderlicher Weise in der wirtschaftlich-rechtlichen Betreuung sowie in der Instandhaltung der Einrichtungen zusammen und fördern die Entwicklung und soziale Integration in der Gemeinschaft."
+  },
+  "donate" : {
+    "title" : "Helfen Sie uns, das Haus zu kaufen, in dem unsere Schule arbeitet!",
+    "subtitle" : "Wir Sagen Ihnen Warum und Wir Danken Ihnen",
+    "text1": "Die Schule arbeitet in einem von uns gemieteten Haus und wir haben nur noch eine kurze Vertragslaufzeit, bevor es zum Verkauf angeboten wird.",
+    "text2": "Wir haben bereits damit begonnen, Spenden innerhalb der Community zu sammeln und laden Sie mit großer Dankbarkeit ein, mitzuarbeiten, damit der Traum Wirklichkeit wird und die Kontinuität des Community-Projekts gewährleistet ist, das wir mit so viel Liebe und Engagement gepflegt haben.",
+    "text3": "Mit deiner herzlichen Geste hilfst du der Bildung für eine bessere Zukunft.",
+    "text4": "Vielen Dank!"
+  },
+
+  "form" : {
+    "title" : "Arbeiten Sie mit Ihrer Online-Spende zusammen",
+    "footer_title" : "Oder eine Überweisung tätigen",
+    "footer_text1": "Als nächstes kommt...",
+    "footer_text2": "",
+    "footer_text3": "",
+    "footer_text4": ""
+  },
+  "donateForm" : {
+    "toogleN" : "Nacional",
+    "toogleI" : "Internacional",
+    "toogleNDesc" : "Argentinien",
+    "montolibre" : "Andere",
+    "toogleIDesc" : "Außerhalb Argentiniens",
+    "label1" : "Wählen Sie einen Betrag vor:"
+  },
+  "footer" : {
+    "social" : "Sie könnten zusammenarbeiten, indem Sie sie in unseren Netzwerken teilen",
+    "maps" : "Hier Sind Wir",
+    "contact" : "Kontakt aufnehmen",
+    "designby": "Hergestellt von Vätern und Müttern der Schule - 2022"
+  }
+}

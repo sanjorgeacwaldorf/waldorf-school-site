@@ -1,0 +1,130 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.scrolling {
+    background-color: rgba(198, 190, 245, 0.35);
+    transition: all 0.5s ease;
+}
+
+.navbar-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 100%;
+}
+.navbar-logo img {
+    height: 100px;
+    width: 100px;
+    line-height: 80px;
+    color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.button-es{
+    border: none;
+    background: url('../../media/es.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    padding: 10px 15px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.button-en{
+    border: none;
+    background: url('../../media/en.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    padding: 10px 15px;
+    cursor: pointer;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.button-de{
+    border: none;
+    background: url('../../media/de.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    padding: 10px 15px;
+    cursor: pointer;
+    height: 40px;
+}
+.lng-container {
+    top: 5px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+
+.button-donate {
+    display: flex;
+    background: chocolate;
+    font-size: 15px;
+    font-family: Antropos,sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px;
+    border-radius: 50%;
+    top: 5px;
+    height: fit-content;
+    margin-top: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    -webkit-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+}
+.button-donate:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate(0px, -10px) scale(1.2);
+    transform: translate(0px, -10px) scale(1.2);
+}
+
+
+@media only screen and (max-width: 960px) {
+
+    .navbar-logo{
+        padding:0 5px;
+    }
+    .navbar-logo img {
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+    }
+
+    .button-es{
+        width: 25px;
+        height: 25px;
+    }
+    .button-en{
+        width: 25px;
+        height: 25px;
+    }
+    .button-de{
+        width: 25px;
+        height: 25px;
+    }
+
+    .button-donate {
+        font-size: 10px;
+        padding: 15px;
+        top: 5px;
+        height: fit-content;
+        margin-top: 5px;
+
+    }
+
+}

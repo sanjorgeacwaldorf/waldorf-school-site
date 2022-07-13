@@ -1,0 +1,74 @@
+/**** VARIABLES ****/
+
+:root {
+  --color-1: #b1966b;
+  --color-1-shade: #b18949;
+  --color-2: #ffebcd;
+  --color-2-shade: #ebc894;
+  --color-3: #d2691e;
+  --color-3-shade: #b15a1c;
+  --color-4: #e39a9a;
+}
+
+
+@font-face {
+    font-family: 'Antropos';
+    src: local('Antropos'), url(./fonts/antropo.ttf) format('truetype');
+
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2.title{
+    font-family: Antropos;
+    font-size: 22px;
+    color: white;
+}
+.section-title {
+    font-size: 40px;
+    font-family: Antropos
+}
+p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Bootstrap */
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--color-3);
+    --bs-btn-border-color: var(--color-3);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--color-3-shade);
+    --bs-btn-hover-border-color: var(--color-3-shade);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--color-3-shade);
+    --bs-btn-active-border-color: var(--color-3-shade);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--color-3);
+    --bs-btn-disabled-border-color: var(--color-3);
+}
+.btn-outline-primary {
+    --bs-btn-color: var(--color-3);
+    --bs-btn-border-color: var(--color-3);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--color-3);
+    --bs-btn-hover-border-color: var(--color-3);
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--color-3);
+    --bs-btn-active-border-color: var(--color-3);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--color-3);
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: none;
+}

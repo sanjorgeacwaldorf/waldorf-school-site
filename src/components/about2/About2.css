@@ -1,0 +1,24 @@
+.about2-container {
+    background-color: var(--color-2);
+    color: var(--color-1);
+    padding: 5em 0;
+}
+
+.ourhistory {
+    background: var(--color-1) url(../../media/bg-pastel.jpeg) ;
+}
+
+.about2-desc {
+    display: flex;
+    align-items: center;
+}
+
+.about2-desc > p {
+    line-height: 1.2;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+
+}

@@ -1,0 +1,28 @@
+.about-container {
+    background-color: var(--color_2);
+    color: var(--color-1);
+    padding: 100px 0 100px 0;
+}
+
+.about-desc > h3 {
+    margin-bottom: 30px;
+}
+
+.about-desc > p {
+    text-align: justify;
+    margin-right: 40px;
+}
+
+.about-img img {
+    border-radius: 10px;
+    object-fit: cover;
+    max-width: 100%;
+    /* Box shadow example */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 960px) {
+    .about-container {
+        padding: 4em 2em;
+    }
+}

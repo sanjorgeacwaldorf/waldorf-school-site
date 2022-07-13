@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "donate": "Donate"
+  },
+  "landing" : {
+    "title": "We are going to tell you a dream...",
+    "text": "| Kindergarden Puente de Estrellas || Elementary School Micael|| Waldorf Pedagogy |"
+  },
+
+  "about" : {
+    "title": "And the Dream Began...",
+    "text": "Back in 2002…there was a meeting between teachers who brought an initiative to found a Waldorf Kindergarten in Córdoba Capital, together with a group of fathers and mothers mobilized by the same concerns for many years.",
+    "text2": "After hard work, in 2003 the “Puente de Estrellas” kindergarten began its activity in the city of Córdoba, Argentina."
+  },
+  "info" : {
+    "text" : "Over the years, many children have enhanced their artistic and creative skills with a home atmosphere, in a free and relaxed way, respecting individual development."
+  },
+  "about2" : {
+    "title" : "A Bit of Our History",
+    "text1" : "We are a Waldorf Pedagogy school, this teaching has more than 100 years of experience and is recognized by UNESCO as an education for the future, integrating the arts and academics from preschool to graduation.",
+    "text2" : "Our school has been operating for 19 years in the city of Cordoba capital, province of Cordoba, Argentina with a modality not attached to official education.",
+    "text3" : "Kindergarten and Primary School levels are working and there is an impulse to create a High School, having more than 130 male and female students with a greater projection in the years to come.",
+    "text4" : "Among the 25 members of the teacher's group, we have excellent artists in their areas, as well as graduates and instructors from the Waldorf Pedagogy seminar.",
+    "text5" : "With warm and safe environments, it is managed by the San Jorge Association, a non-profit civil association made up of parents, and teachers from the school.",
+    "text6" : "Currently, 104 families collaborate in a self-managed and fraternal way in the economic-legal support as well as in the maintenance of the facilities, awakening the development and social integration in the community."
+  },
+  "donate" : {
+    "title" : "Help us buy the house where our school works!",
+    "subtitle" : "We Tell You Why and We Thank you",
+    "text1": "The school works in a house that we rent and we have a short time left on the contract before it will be put up for sale.",
+    "text2": "We have already begun to collect donations within the community and we invite you with immense gratitude to collaborate so that the dream becomes a reality, guaranteeing the continuity of the community project that we have been caring for with so much love and commitment.",
+    "text3": "With your warm gesture, you are helping the education for a better future.",
+    "text4": "Thank you very much!"
+  },
+
+  "form" : {
+    "title" : "Collaborate with Your Online Donation",
+    "footer_title" : "Or Making a Transfer",
+    "footer_text1": "Comming Next...",
+    "footer_text2": "",
+    "footer_text3": "",
+    "footer_text4": ""
+  },
+  "donateForm" : {
+    "toogleN" : "Nacional",
+    "toogleI" : "Internacional",
+    "toogleNDesc" : "Argentina",
+    "montolibre" : "Other",
+    "toogleIDesc" : "Outside Argentina",
+    "label1" : "Pre-Select an Amount:"
+  },
+  "footer" : {
+    "social" : "You Could Collaborate By Sharing on Our Networks",
+    "maps" : "Here We Are",
+    "contact" : "Make Contact",
+    "designby": "Made by fathers and mothers of the school - 2022"
+  }
+}
+

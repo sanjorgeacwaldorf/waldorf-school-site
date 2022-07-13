@@ -1,0 +1,66 @@
+.landing-container {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,6, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Antropos;
+}
+
+.video {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    background-color: white !important;
+}
+
+.arrow {
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    border: none;
+    animation: blink 1s ease-in infinite;
+    font-size: 3em;
+}
+@keyframes blink {
+    from, to { opacity: .7 }
+    50% { opacity: 0 }
+}
+
+.landing-container > h1 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.landing-container > p {
+    margin-top: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+@media only screen and (max-width: 960px) {
+    .landing-container > h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .landing-container > p {
+        text-align: center;
+        font-size: 15px;
+        width: 85%;
+    }
+}

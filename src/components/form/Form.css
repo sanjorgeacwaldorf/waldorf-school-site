@@ -1,0 +1,22 @@
+.form-container{
+    border: solid 1px var(--color-3);
+    border-radius: 10px;
+    /* background-color: #fff6ea; */
+    padding: 2em ;
+    color: var(--color-1);
+    font-family: 'Roboto', sans-serif;
+}
+.toogle-group {
+    width: 100%;
+}
+.form-footer, .form-label {
+    color: var(--color-3);
+}
+.form-footer p {
+    margin-bottom: 0;
+}
+.form-container h3 {
+    font-size: 1.3em;
+    color: var(--color-3);
+    font-family: Antropos;
+}
