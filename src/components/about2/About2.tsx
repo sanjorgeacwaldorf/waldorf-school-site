@@ -12,7 +12,7 @@ const About2 = () => {
                 <div className="row">
                     <div className="embed-responsive embed-responsive-16by9 about2-video mb-4">
                         <iframe title="Puente de Estrellas" frameBorder="0" className='embed-responsive-item' width="100%" height="400"
-                            src="https://www.youtube.com/embed/WtVDcvX0o3o"
+                            src="https://www.youtube.com/embed/WtVDcvX0o3o" loading="lazy"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
                         >

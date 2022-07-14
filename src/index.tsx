@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
+import Donation from './pages/donation'
 import { I18nextProvider } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import i18next from 'i18next';
@@ -33,9 +35,28 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-      <I18nextProvider i18n={i18next}>
-          <App />
-      </I18nextProvider>
+      <BrowserRouter>
+          <Routes>
+            <Route path="/" element={
+              <I18nextProvider i18n={i18next}>
+                  <App />
+              </I18nextProvider>
+            } />
+            <Route path="donation" element={
+              <I18nextProvider i18n={i18next}>
+                  <Donation />
+              </I18nextProvider>
+              } />
+              <Route
+                  path="*"
+                  element={
+                      <main style={{ padding: "1rem" }}>
+                          <p>There's nothing here!</p>
+                      </main>
+                  }
+              />
+          </Routes>
+      </BrowserRouter>
   </React.StrictMode>
 );
 
