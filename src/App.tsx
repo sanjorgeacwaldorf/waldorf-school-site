@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import {useTranslation} from "react-i18next";
 
 import Landing from './components/landing/Landing'
 import Navbar from "./components/navbar/Navbar";
@@ -12,7 +13,7 @@ import './App.css';
 
 function App() {
     const [scrollHeight, setScrollHeight] = useState(0);
-
+    const [t, i18n] = useTranslation('global')
     const handleScroll = () => {
         const position = window.pageYOffset;
         setScrollHeight(position);
@@ -21,6 +22,9 @@ function App() {
     useEffect(()=>{
         window.addEventListener('scroll', handleScroll)
     }, [scrollHeight])
+
+    useEffect(() => {
+        document.title = t('page.title') }, [i18n.language])
 
     
   return (
