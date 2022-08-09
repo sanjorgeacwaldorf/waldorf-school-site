@@ -26,7 +26,6 @@ function App() {
     useEffect(() => {
         document.title = t('page.title') }, [i18n.language])
 
-    
   return (
     <div className='App'>
         <Navbar IsScrolling={scrollHeight}/>
