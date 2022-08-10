@@ -6,7 +6,6 @@ import corazon from '../../media/corazonacuarela3.webp'
 
 const Donate = () => {
 	const [t] = useTranslation('global')
-	const locale = navigator.language.split('-')[1]
 	return (
 		<div className="donate-container">
 			<div className='container'>
@@ -21,7 +20,7 @@ const Donate = () => {
 							<p className='lead text-uppercase'> {t('donate.text4')} <img className="m-lg-3" src={corazon} height="50" width="50" alt='Imagen escuela' /></p>
 						</div>
 						<div className="col-md-5 donate-form">
-							<Form location={locale} />
+							<Form />
 						</div>
 					</div>
 				</div>

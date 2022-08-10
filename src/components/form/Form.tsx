@@ -6,10 +6,8 @@ import { ToggleButton, ToggleButtonGroup, Row, FormLabel, Container, Button, For
 
 //https://www.paypal.com/paypalme/sanjorgeproyectoeduc/30
 
-interface FormularioProps {
-    location: string
-}
-const Formulario = ({ location }: FormularioProps) => {
+
+const Formulario = ( ) => {
 	const [t] = useTranslation('global')
 	const amounts: { id: string, amountValue: string, amountDesc: string }[] = [
 		{ 'id': 'Nacional1', 'amountValue': '500', 'amountDesc': '$500' },
