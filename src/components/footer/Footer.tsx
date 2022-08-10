@@ -55,7 +55,7 @@ const Footer = () => {
                                     <p>
                                         <i className="fas fa-envelope me-3"></i>
                                         <a className='text-reset text-decoration-none' href="mailto:donaciones.sanjorge.waldorf@gmail.com?Subject=Gracias%20-%20Thank%20you%20-%20Dank">
-                                        donaciones.sanjorge.waldorf@gmail.com
+                                            donaciones.sanjorge.waldorf@gmail.com
                                         </a>
 
                                     </p>

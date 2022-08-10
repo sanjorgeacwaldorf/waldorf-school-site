@@ -14,49 +14,49 @@ import global_de from './translations/de/global.json'
 i18next
     .use(LanguageDetector)
     .init({
-        interpolation: { escapeValue: false},
-        detection: { },
+        interpolation: { escapeValue: false },
+        detection: {},
         resources: {
-        es: {
-            global: global_es
-        },
-        en: {
-            global: global_en
-        },
-        de: {
-            global: global_de
+            es: {
+                global: global_es
+            },
+            en: {
+                global: global_en
+            },
+            de: {
+                global: global_de
+            }
         }
-    }
-})
+    })
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById('root') as HTMLElement
 );
 
 root.render(
-  <React.StrictMode>
-      <BrowserRouter>
-          <Routes>
-            <Route path="/" element={
-              <I18nextProvider i18n={i18next}>
-                  <App />
-              </I18nextProvider>
-            } />
-            <Route path="donation" element={
-              <I18nextProvider i18n={i18next}>
-                  <Donation />
-              </I18nextProvider>
-              } />
-              <Route
-                  path="*"
-                  element={
-                      <main style={{ padding: "1rem" }}>
-                          <p>There's nothing here!</p>
-                      </main>
-                  }
-              />
-          </Routes>
-      </BrowserRouter>
-  </React.StrictMode>
+    <React.StrictMode>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={
+                    <I18nextProvider i18n={i18next}>
+                        <App />
+                    </I18nextProvider>
+                } />
+                <Route path="donation" element={
+                    <I18nextProvider i18n={i18next}>
+                        <Donation />
+                    </I18nextProvider>
+                } />
+                <Route
+                    path="*"
+                    element={
+                        <main style={{ padding: "1rem" }}>
+                            <p>Nothing here</p>
+                        </main>
+                    }
+                />
+            </Routes>
+        </BrowserRouter>
+    </React.StrictMode>
 );
 
