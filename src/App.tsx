@@ -12,32 +12,32 @@ import Donate from './components/donate/Donate'
 import './App.css'
 
 function App() {
-    const [scrollHeight, setScrollHeight] = useState(0);
-    const [t, i18n] = useTranslation('global')
-    const handleScroll = () => {
-        const position = window.pageYOffset;
-        setScrollHeight(position)
-    }
+	const [scrollHeight, setScrollHeight] = useState(0)
+	const [t, i18n] = useTranslation('global')
+	const handleScroll = () => {
+		const position = window.pageYOffset
+		setScrollHeight(position)
+	}
 
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll)
-    }, [scrollHeight])
+	useEffect(() => {
+		window.addEventListener('scroll', handleScroll)
+	}, [scrollHeight])
 
-    useEffect(() => {
-        document.title = t('page.title')
-    }, [i18n.language])
+	useEffect(() => {
+		document.title = t('page.title')
+	}, [i18n.language])
 
-    return (
-        <div className='App'>
-            <Navbar IsScrolling={scrollHeight} />
-            <Landing />
-            <About />
-            <Info />
-            <About2 />
-            <Donate />
-            <Footer />
-        </div>
-    );
+	return (
+		<div className='App'>
+			<Navbar IsScrolling={scrollHeight} />
+			<Landing />
+			<About />
+			<Info />
+			<About2 />
+			<Donate />
+			<Footer />
+		</div>
+	)
 }
 
 export default App

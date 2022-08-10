@@ -5,12 +5,12 @@ import Donate from '../components/donate/Donate'
 import './donation.css'
 
 function Donation() {
-    return (
-    <div className='Donation'>
-        <Donate />
-        <Footer />
-    </div>
-    );
+	return (
+		<div className='Donation'>
+			<Donate />
+			<Footer />
+		</div>
+	)
 }
 
 export default Donation
