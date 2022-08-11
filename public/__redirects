@@ -1,3 +1,4 @@
-/robots.txt    /robots.txt   200
-/sitemap.xml    /sitemap.xml   200
+/es     /index.html?lng=es
+/en     /index.html?lng=en
+/de     /index.html?lng=de
 /*    /index.html   200
