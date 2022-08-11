@@ -10,7 +10,7 @@ function NotFound() {
 	const [t] = useTranslation('global')
 	return (
 		<div className='404'>
-			<h1>Not Found!</h1>
+			<h1>{t('404.title')}</h1>
 			<Footer />
 		</div>
 	)
