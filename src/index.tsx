@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App'
 import Donation from './pages/donation'
+import NotFound from './pages/404'
 import { I18nextProvider } from 'react-i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import i18next from 'i18next'
@@ -50,9 +51,9 @@ root.render(
 				<Route
 					path="*"
 					element={
-						<main style={{ padding: '1rem' }}>
-							<p>Nothing here</p>
-						</main>
+						<I18nextProvider i18n={i18next}>
+						<NotFound />
+					</I18nextProvider>
 					}
 				/>
 			</Routes>
