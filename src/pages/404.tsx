@@ -6,13 +6,13 @@ import Footer from '../components/footer/Footer'
 
 import './404.css'
 
-function Donation() {
+function NotFound() {
 	return (
 		<div className='404'>
-			<Navbar IsScrolling={0} />
+			<h1>Not Found!</h1>
 			<Footer />
 		</div>
 	)
 }
 
-export default Donation
+export default NotFound

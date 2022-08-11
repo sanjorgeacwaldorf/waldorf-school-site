@@ -52,8 +52,8 @@ root.render(
 					path="*"
 					element={
 						<I18nextProvider i18n={i18next}>
-						<NotFound />
-					</I18nextProvider>
+							<NotFound />
+						</I18nextProvider>
 					}
 				/>
 			</Routes>
