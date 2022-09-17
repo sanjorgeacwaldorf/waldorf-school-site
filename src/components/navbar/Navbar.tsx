@@ -10,7 +10,7 @@ const Navbar = ({ IsScrolling }: { IsScrolling: number }) => {
 	}
 
 	const totheBottom = () => {
-		window.scrollTo({ top: 2670, left: 0, behavior: 'smooth' })
+		window.scrollTo({ top: 590, left: 0, behavior: 'smooth' })
 	}
 	const [t, i18n] = useTranslation('global')
 	return (

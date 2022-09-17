@@ -3,20 +3,19 @@
     width: 100%;
     background: white;
     color: var(--color-1);
-    padding: 50px 0;
+    padding: 5em 0;
 }
 
 .donate-container > h1 {
     width: 100%;
     align-self: center;
-    padding-bottom: 15px;
     font-size: 35px;
     text-align: center;
     font-family: Antropos;
 }
 
 .donate-text {
-
+    text-align: left;
 }
 
 .donate-text > h3 {
@@ -32,6 +31,10 @@
 @media only screen and (max-width: 960px) {
     .donate-text {
         padding-top: 0;
+    }
+
+    .donate-text > h2 {
+        font-size: 30px
     }
 
 }

@@ -1,4 +1,18 @@
+# A redirect rule with many of the supported properties
+[[redirects]]
+  from = "/es"
+  to = "/?lng=es"
+  status = 200
+[[redirects]]
+  from = "/en"
+  to = "/?lng=en"
+  status = 200
+[[redirects]]
+  from = "/de"
+  to = "/?lng=de"
+  status = 200
 [[redirects]]
 from = "/*"
 to = "/index.html"
 status = 200
+

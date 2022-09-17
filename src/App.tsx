@@ -3,9 +3,10 @@ import { useTranslation } from 'react-i18next'
 
 import Landing from './components/landing/Landing'
 import Navbar from './components/navbar/Navbar'
-import About from './components/about/About'
+//import About from './components/about/About'
 import About2 from './components/about2/About2'
 import Info from './components/info/Info'
+import Info2 from './components/info2/Info2'
 import Footer from './components/footer/Footer'
 import Donate from './components/donate/Donate'
 
@@ -31,10 +32,10 @@ function App() {
 		<div className='App'>
 			<Navbar IsScrolling={scrollHeight} />
 			<Landing />
-			<About />
-			<Info />
-			<About2 />
 			<Donate />
+			<About2 />
+			<Info />
+			<Info2 />
 			<Footer />
 		</div>
 	)

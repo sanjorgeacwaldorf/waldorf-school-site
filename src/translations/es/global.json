@@ -1,6 +1,7 @@
 {
   "404": {
-    "title": "Jardin de Infantes Puente de Estrellas, Escuela Primaria Micael, Pedagogia Waldorf "
+    "title": "Jardin de Infantes Puente de Estrellas, Escuela Primaria Micael, Pedagogia Waldorf ",
+    "text": "No encontrada - Por favor dirijase a www.sanjorgeac.com.ar - Gracias!!"
   },
   "page": {
     "title": "Jardin de Infantes Puente de Estrellas, Escuela Primaria Micael, Pedagogia Waldorf "
@@ -9,7 +10,7 @@
     "donate": "Donar"
   },
   "landing" : {
-    "title": "Te vamos a contar un sueño…",
+    "title": "Queremos que seas parte de nuestro sueño...",
     "text": "| Jardin de Infantes Puente de Estrellas || Escuela Primaria Micael || Pedagogia Waldorf |"
   },
   "about" : {
@@ -18,23 +19,24 @@
     "text2": "Luego de un arduo trabajo, en el año 2003 comenzaba su actividad el jardín para la infancia “Puente de Estrellas”, en la ciudad de Córdoba, Argentina."
   },
   "info" : {
-    "text" : "En el paso de estos años muchos niños y niñas han potenciado sus habilidades artísticas y creativas en una atmósfera hogareña, de forma libre y relajada, respetando el desarrollo individual."
+    "text" : "Agradecemos tu aporte para que los niños y niñas que hoy asisten a nuestra escuela sean agentes de transformación en el mundo de mañana."
+  },
+  "info2" : {
+    "text" : "Recibir al niño con veneración y respeto, educarlo con amor y conducirlo hacia la libertad."
   },
   "about2" : {
     "title" : "Un Poco de Nuestra Historia",
-    "text1" : "Somos una escuela de Pedagogía Waldorf , esta enseñanza tiene más de 100 años de experiencia y es reconocida por la UNESCO como una educación para el futuro, integrando las artes y lo académico desde el preescolar hasta el egreso.",
-    "text2" : "Hace 19 años que nuestra escuela funciona en la ciudad de Cordoba capital, provincia de Cordoba, Argentina con una modalidad no adscripta a la enseñanza oficial.",
-    "text3" : "En ella funcionan los niveles de Jardin de Infantes, Escuela Primaria y existe un impulso para la creación de una Escuela Secundaria, sumando más de 130 alumnos y alumnas con una proyección mayor en los años venideros.",
-    "text4" : "Entre los 25 integrantes del grupo de maestros y maestras, contamos con artistas excelentes en sus areas, así como docentes graduados y profesores del seminario de formación en pegagogia Waldorf.",
-    "text5" : "Con ambientes cálidos y seguros es administrada por la asociación San Jorge, una asociación civil sin fines de lucro conformada por padres, madres, maestras y maestros de la escuela.",
-    "text6" : "Actualmente, 104 familias colaboran de manera autogestiva y fraterna en el sostenimiento económico-legal así como también, en el mantenimiento de las instalaciones despertando el desarrollo e integración social en la comunidad."
+    "text1" : "Nuestra escuela fue fundada hace diecinueve años en la ciudad de Cordoba, Argentina. En ella funcionan los niveles de Jardín de Infantes, Escuela Primaria y existe un impulso para la creación de una Escuela Secundaria, sumando más de 130 alumnos y alumnas con una proyección mayor en los años venideros.",
+    "text2" : "Cimentada en un profundo conocimiento de la naturaleza humana, nuestra escuela se ha desarrollado y crecido gracias al trabajo conjunto de la asociación San Jorge, una asociación civil sin fines de lucro conformada por los padres, madres, maestras y maestros, que ven en esta labor un aporte genuino para la sociedad. Actualmente, 104 familias colaboran de manera autogestiva y fraterna en el sostenimiento económico-legal así como también, en el mantenimiento de las instalaciones.",
+    "text3" : "Cuando los niños entran a nuestra escuela, tanto ellos como sus familias perciben en este espacio la misma calidez del hogar, creando así fuertes lazos a través de los años.",
+    "text4" : "Creemos que el desarrollo de los niños y niñas es un proceso gradual, de dimensiones físicas, emocionales, intelectuales, sociales y espirituales, cuyo tiempo debe ser respetado con amor y consciencia. Es por esto que estamos comprometidos a continuar el camino que hace más de cien años comenzó Rudolf Steiner en Stuttgart, Alemania, al fundar la primera escuela Waldorf. Un camino que va trazando su andar por el mundo entero, y en el que no solo creemos sino experimentamos, como renovador y como herramienta para la vida.",
+    "videolanding" : "F78e8pMJOPs"
   },
   "donate" : {
-    "title" : "¡Ayudanos a Comprar La Casa Donde Funciona Nuestra Escuela!",
-    "subtitle" : "Te Contamos el Porque y Te Agradecemos",
-    "text1": "La escuela funciona en una casa que alquilamos y nos queda poco tiempo de contrato para luego ser puesta a la venta.",
-    "text2": "Nosotros ya comenzamos a recaudar donaciones dentro de la comunidad y te invitamos con una inmensa gratitud, a que colabores para que el sueño se haga realidad garantizando la continuidad del proyecto comunitario que con tanto amor y empeño venimos cuidando.",
-    "text3": "Con tu cálido gesto estas ayudando a la educación para un futuro mejor.",
+    "title" : "¡Ayudanos a comprar la casa donde funciona nuestra querida escuela!",
+    "text1": "Haciendo un aporte al Jardín Puente de Estrellas y Escuela Primaria Micael colaborás para que la casa que habitamos sea el lugar donde echemos raíces, y así garantizar la continuidad del proyecto comunitario que con tanto amor y empeño venimos cuidando.",
+    "text2": "La donación de tiempo, fondos y recursos, a una organización alineada con valores de fraternidad y humanidad, crean un efecto dominó de beneficios que continúan replicándose y cuyo alcance es multiplicador. Sea grande o pequeña, cada entrega es significativa y profundamente valorada.",
+    "text3": "¡Tu apoyo tiene un gran impacto y hace la diferencia en nuestra comunidad!!",
     "text4": "Muchas gracias!"
   },
 
@@ -53,13 +55,13 @@
     "toogleNDesc" : "Argentina",
     "toogleIDesc" : "Fuera de Argentina",
     "montolibre" : "Otro",
-    "label1" : "Pre-Seleccione un Monto:"
+    "label1" : "Montos Sugeridos:"
   },
 
   "footer" : {
-    "social" : "Podes Colaborar Compartiendo en Nuestras Redes",
+    "social" : "¡También podés colaborar compartiendo nuestro mensaje en tu entorno!",
     "maps" : "Aca Estamos",
-    "contact" : "Contactate",
+    "contact" : "CONTACTO",
     "designby": "Realizado por padres y madres de la escuela - 2022"
   }
 

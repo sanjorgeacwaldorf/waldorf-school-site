@@ -65,4 +65,15 @@
     .social-container h2 {
         text-align: center;
     }
+
+    .contact_title{
+        margin-top: 50px;
+    }
+
+    .googlemaps {
+        width: 100%;
+    }
+    .streetview {
+        width: 100%;
+    }
 }

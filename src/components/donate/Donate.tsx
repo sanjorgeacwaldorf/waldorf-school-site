@@ -13,7 +13,7 @@ const Donate = () => {
 					<div className="row">
 						<div className="col-md-7 donate-text ">
 							<h2 className='section-title text-center'> {t('donate.title')}</h2>
-							<h3> {t('donate.subtitle')}</h3>
+							<br/>
 							<p> {t('donate.text1')} </p>
 							<p> {t('donate.text2')} </p>
 							<p className='lead'> {t('donate.text3')} </p>

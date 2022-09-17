@@ -1,6 +1,7 @@
 {
   "404": {
-    "title": "Kindergarten Puente de Estrellas, Grundschule Micael, Waldorfpädagogik"
+    "title": "Kindergarten Puente de Estrellas, Grundschule Micael, Waldorfpädagogik",
+    "text": "Kindergarten Puente de Estrellas, Grundschule Micael, Waldorfpädagogik"
   },
   "page": {
     "title": "Kindergarten Puente de Estrellas, Grundschule Micael, Waldorfpädagogik"
@@ -9,7 +10,7 @@
     "donate": "Schenken"
   },
   "landing" : {
-    "title": "Wir werden Ihnen einen Traum erzählen...",
+    "title": "Wir möchten, dass Sie Teil unseres Traums werden...",
     "text": "| Kindergarten Puente de Estrellas || Grundschule Micael || Waldorfpädagogik |"
   },
   "about" : {
@@ -18,23 +19,24 @@
     "text2": "Nach harter Arbeit nahm der Kindergarten „Puente de Estrellas“ im Jahr 2003 seine Tätigkeit in der Stadt Córdoba, Argentinien, auf."
   },
   "info" : {
-    "text" : "Im Laufe der Jahre haben viele Kinder ihre künstlerischen und kreativen Fähigkeiten in einer häuslichen Atmosphäre auf freie und entspannte Weise und unter Berücksichtigung der individuellen Entwicklung erweitert."
+    "text" : "Wir wissen Ihren Beitrag zu schätzen, damit die Jungen und Mädchen, die heute unsere Schule besuchen, Akteure der Transformation in der Welt von morgen sind."
+  },
+  "info2" : {
+    "text" : "Empfange das Kind mit Ehrfurcht und Respekt, erziehe es mit Liebe und führe es in die Freiheit."
   },
   "about2" : {
     "title" : "Ein Bisschen Unsere Geschichte",
-    "text1" : "Wir sind eine Schule für Waldorfpädagogik, dieser Unterricht hat mehr als 100 Jahre Erfahrung und ist von der UNESCO als Bildung für die Zukunft anerkannt, die Kunst und Wissenschaft von der Vorschule bis zum Abschluss integriert.",
-    "text2" : "Unsere Schule ist seit 19 Jahren in der Hauptstadt Cordoba, Provinz Cordoba, Argentinien, mit einer Modalität tätig, die nicht mit der offiziellen Bildung verbunden ist.",
-    "text3" : "Der Kindergarten und die GrundschuleKindergarten- und Grundschulstufen arbeiten und es gibt einen Impuls zur Schaffung einer High School mit mehr als 130 männlichen und weiblichen Schülern mit einer größeren Projektion in den kommenden Jahren. Ebenen arbeiten dort und es gibt einen Impuls, eine High School mit mehr als 130 männlichen und weiblichen Schülern zu gründen, mit einer größeren Projektion in den kommenden Jahren.",
-    "text4" : "Unter den 25 Mitgliedern des Lehrerkreises haben wir exzellente Künstler ihres Fachs, sowie Absolventen und Dozenten des Waldorfpädagogik-Seminars.",
-    "text5" : "Es bietet eine warme und sichere Umgebung und wird von der San Jorge Association verwaltet, einer gemeinnützigen Zivilvereinigung, die sich aus Eltern und Lehrern der Schule zusammensetzt.",
-    "text6" : "Derzeit arbeiten 104 Familien in selbstverwalteter und brüderlicher Weise in der wirtschaftlich-rechtlichen Betreuung sowie in der Instandhaltung der Einrichtungen zusammen und fördern die Entwicklung und soziale Integration in der Gemeinschaft."
+    "text1" : "Unsere Schule wurde vor neunzehn Jahren in der Stadt Cordoba, Argentinien, gegründet. Dort arbeiten die Kindergarten- und Grundschulstufen, und es gibt einen Impuls, eine Sekundarschule zu schaffen, die in den kommenden Jahren mehr als 130 männliche und weibliche Schüler mit einer größeren Projektion hinzufügen wird.",
+    "text2" : "Basierend auf einer tiefen Menschenkenntnis hat sich unsere Schule dank der gemeinsamen Arbeit der San Jorge Association entwickelt und gewachsen, einer gemeinnützigen Zivilgesellschaft, die sich aus Vätern, Müttern, Lehrern und Lehrern zusammensetzt, die in dieser Arbeit eine echte Beitrag zur Gesellschaft. Derzeit arbeiten 104 Familien in selbstverwalteter und brüderlicher Weise an der wirtschaftlich-rechtlichen Betreuung sowie am Unterhalt der Einrichtungen mit.",
+    "text3" : "Wenn Kinder unsere Schule betreten, spüren sowohl sie als auch ihre Familien in diesem Raum die gleiche Wärme wie zu Hause, wodurch im Laufe der Jahre starke Bindungen entstehen.",
+    "text4" : "Wir glauben, dass die Entwicklung von Kindern ein allmählicher Prozess mit körperlichen, emotionalen, intellektuellen, sozialen und spirituellen Dimensionen ist, dessen Zeit mit Liebe und Bewusstsein respektiert werden muss. Deshalb setzen wir uns dafür ein, den Weg fortzusetzen, den Rudolf Steiner vor mehr als hundert Jahren in Stuttgart mit der Gründung der ersten Waldorfschule begonnen hat. Ein Weg, der seinen Weg um die ganze Welt führt und an den wir nicht nur glauben, sondern auch leben, als Erneuerer und als Werkzeug fürs Leben.",
+    "videolanding" : "DN_EAuTFWnU"
   },
   "donate" : {
-    "title" : "Helfen Sie uns, das Haus zu kaufen, in dem unsere Schule arbeitet!",
-    "subtitle" : "Wir Sagen Ihnen Warum und Wir Danken Ihnen",
-    "text1": "Die Schule arbeitet in einem von uns gemieteten Haus und wir haben nur noch eine kurze Vertragslaufzeit, bevor es zum Verkauf angeboten wird.",
-    "text2": "Wir haben bereits damit begonnen, Spenden innerhalb der Community zu sammeln und laden Sie mit großer Dankbarkeit ein, mitzuarbeiten, damit der Traum Wirklichkeit wird und die Kontinuität des Community-Projekts gewährleistet ist, das wir mit so viel Liebe und Engagement gepflegt haben.",
-    "text3": "Mit deiner herzlichen Geste hilfst du der Bildung für eine bessere Zukunft.",
+    "title" : "Helfen Sie uns, das Haus zu kaufen, in dem unsere geliebte Schule arbeitet!",
+    "text1": "Indem Sie einen Beitrag für den Garten Puente de Estrellas und die Micael-Grundschule leisten, tragen Sie dazu bei, dass das Haus, in dem wir leben, der Ort ist, an dem wir Wurzeln schlagen, und garantieren so die Kontinuität des Gemeinschaftsprojekts, das wir so sehr pflegen Liebe und Engagement.",
+    "text2": "Die Spende von Zeit, Geldern und Ressourcen an eine Organisation, die an den Werten der Brüderlichkeit und Menschlichkeit ausgerichtet ist, erzeugt einen Dominoeffekt von Vorteilen, die sich weiterhin wiederholen und deren Umfang multiplikatorisch ist. Ob groß oder klein, jede Lieferung ist sinnvoll und hoch geschätzt.",
+    "text3": "Ihre Unterstützung hat eine große Wirkung und macht einen Unterschied in unserer Gemeinschaft!!",
     "text4": "Vielen Dank!"
   },
 
@@ -52,12 +54,12 @@
     "toogleNDesc" : "Argentinien",
     "montolibre" : "Andere",
     "toogleIDesc" : "Außerhalb Argentiniens",
-    "label1" : "Wählen Sie einen Betrag vor:"
+    "label1" : "Vorgeschlagene Beträge:"
   },
   "footer" : {
-    "social" : "Sie könnten zusammenarbeiten, indem Sie sie in unseren Netzwerken teilen",
+    "social" : "Sie können auch zusammenarbeiten, indem Sie unsere Botschaft in Ihrer Umgebung teilen!",
     "maps" : "Hier Sind Wir",
-    "contact" : "Kontakt aufnehmen",
+    "contact" : "KONTAKT",
     "designby": "Hergestellt von Vätern und Müttern der Schule - 2022"
   }
 }
