@@ -12,9 +12,8 @@ function Thankyou() {
 	return (
 		<div className='notfound-container'>
 			<div className='container'>
-
 				<div className="col-xs-12 text-center">
-				<img src={logoPuente} height="160" width="160" alt='Imagen escuela' />
+					<img src={logoPuente} height="160" width="160" alt='Imagen escuela' />
 					<hr />
 					<div className="shadow p-3 mb-5 bg-body rounded ourhistory">
 						<h4 className='text-center mb-5'>{t('thankyou.text1')}</h4> 
