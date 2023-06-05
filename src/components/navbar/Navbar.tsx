@@ -15,7 +15,7 @@ const Navbar = ({ IsScrolling }: { IsScrolling: number }) => {
 	const [t, i18n] = useTranslation('global')
 	return (
 		<nav className={`navbar ${IsScrolling > 20 ? 'scrolling' : null}`}>
-			<div className='navbar-logo' onClick={totheTop}>
+			<div className='navbar-logo'>
 				<img src={logoPuente} height="80" width="80" alt='Imagen escuela' />
 				<div className='lng-container'>
 					<button className='button-es' onClick={(e) => { e.stopPropagation(); i18n.changeLanguage('es') }}></button>

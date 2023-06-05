@@ -1,4 +1,9 @@
 {
+  "thankyou": {
+    "text1": "Ihr Beitrag ist wirklich von unschätzbarem Wert und wir sind im Namen des Puente de Estrellas-Kindergartens, der Micael-Grundschule und der Waldorfpädagogik aufrichtig dankbar:",
+    "text2": "Vielen Dank für Ihre Zusammenarbeit!",
+    "text3": "Vielen Dank, dass Sie eine tragende Säule für das Wachstum und die Entwicklung unserer Schule sind!"
+  },
   "404": {
     "title": "Kindergarten Puente de Estrellas, Grundschule Micael, Waldorfpädagogik",
     "text": "Kindergarten Puente de Estrellas, Grundschule Micael, Waldorfpädagogik"
@@ -46,7 +51,8 @@
     "footer_text1": "Als nächstes kommt...",
     "footer_text2": "",
     "footer_text3": "",
-    "footer_text4": ""
+    "footer_text4": "",
+    "footer_text5": ""
   },
   "donateForm" : {
     "toogleN" : "Nacional",

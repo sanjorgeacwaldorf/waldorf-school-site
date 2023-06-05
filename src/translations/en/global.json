@@ -1,8 +1,12 @@
 {
+  "thankyou": {
+    "text1": "Your contribution is truly invaluable and we are sincerely grateful, on behalf of Puente de Estrellas Kindergarten, Micael Elementary School and Waldorf Pedagogy:",
+    "text2": "Thank you very much for your cooperation!",
+    "text3": "Thank you for being a fundamental pillar in the growth and development of our school!"
+  },
   "404": {
     "title": "Kindergarden Puente de Estrellas, Elementary School Micael, Waldorf Pedagogy",
     "text": "Not found - Please go to www.sanjorgeac.com.ar - Thanks!"
-
   },
   "page": {
     "title": "Kindergarden Puente de Estrellas, Elementary School Micael, Waldorf Pedagogy"
@@ -48,7 +52,8 @@
     "footer_text1": "Comming Next...",
     "footer_text2": "",
     "footer_text3": "",
-    "footer_text4": ""
+    "footer_text4": "",
+    "footer_text5": ""
   },
   "donateForm" : {
     "toogleN" : "Nacional",

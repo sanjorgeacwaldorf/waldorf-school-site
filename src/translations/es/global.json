@@ -1,4 +1,9 @@
 {
+  "thankyou": {
+    "text1": "Tu contribución es realmente invaluable y estamos sinceramente agradecidos,  en nombre del Jardin de Infantes Puente de Estrellas, Escuela Primaria Micael y la Pedagogia Waldorf:",
+    "text2": "Muchas Gracias por tu Colaboracion!",
+    "text3": "¡Gracias por ser un pilar fundamental en el crecimiento y desarrollo de nuestra escuela!."
+  },
   "404": {
     "title": "Jardin de Infantes Puente de Estrellas, Escuela Primaria Micael, Pedagogia Waldorf ",
     "text": "No encontrada - Por favor dirijase a www.sanjorgeac.com.ar - Gracias!!"
@@ -47,7 +52,8 @@
     "footer_text1": "SAN JORGE PROY EDUC WALDORF ASOC CIVIL",
     "footer_text2": "CUIT: 30-71425482-7",
     "footer_text3": "CUENTA CORRIENTE: 216 - 000118422",
-    "footer_text4": "CBU: 0720216420000001184222"
+    "footer_text4": "CBU: 0720216420000001184222",
+    "footer_text5": "ALIAS: SANJORGE.WALDORF.MP"
   },
   "donateForm" : {
     "toogleN" : "Nacional",

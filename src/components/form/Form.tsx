@@ -177,6 +177,7 @@ const Formulario = ( ) => {
 				<p> {t('form.footer_text2')} </p>
 				<p> {t('form.footer_text3')} </p>
 				<p> {t('form.footer_text4')} </p>
+				<p> {t('form.footer_text5')} </p>
 			</Row>
 		</Container>
 	)

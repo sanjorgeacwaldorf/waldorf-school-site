@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App'
 import Donation from './pages/donation'
+import Thankyou from './pages/thankyou'
 import NotFound from './pages/404'
 import { I18nextProvider } from 'react-i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
@@ -46,6 +47,11 @@ root.render(
 				<Route path="donation" element={
 					<I18nextProvider i18n={i18next}>
 						<Donation />
+					</I18nextProvider>
+				} />
+				<Route path="thankyou" element={
+					<I18nextProvider i18n={i18next}>
+						<Thankyou />
 					</I18nextProvider>
 				} />
 				<Route
