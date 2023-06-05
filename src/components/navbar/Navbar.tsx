@@ -5,10 +5,6 @@ import logoPuente from '../../media/logo.png'
 import { useTranslation } from 'react-i18next'
 
 const Navbar = ({ IsScrolling }: { IsScrolling: number }) => {
-	const totheTop = () => {
-		window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
-	}
-
 	const totheBottom = () => {
 		window.scrollTo({ top: 590, left: 0, behavior: 'smooth' })
 	}
