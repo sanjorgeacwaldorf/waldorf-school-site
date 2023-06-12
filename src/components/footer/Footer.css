@@ -18,7 +18,7 @@
     margin-left: 1em;
 }
 
-.instagram, .twitter, .facebook{
+.instagram, .youtube, .facebook{
     color: var(--color-1);
     font-size: 35px;
     margin: 0 auto;
@@ -27,7 +27,7 @@
 }
 
 .instagram:hover,
-.twitter:hover,
+.youtube:hover,
 .facebook:hover {
     border-color: var(--color-1);
     transition: all 0.3s ease-out;

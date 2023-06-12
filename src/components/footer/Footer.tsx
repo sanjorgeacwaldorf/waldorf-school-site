@@ -23,6 +23,9 @@ const Footer = () => {
 								<a href="https://www.facebook.com/sanjorgeac/" target="_blank" rel="noreferrer">
 									<i className='fab fa-facebook facebook'></i>
 								</a>
+								<a href="https://www.youtube.com/@sanjorgeasociacioncivil/" target="_blank" rel="noreferrer">
+									<i className='fab fa-youtube youtube'></i>
+								</a>
 							</div>
 						</div>
 					</div>

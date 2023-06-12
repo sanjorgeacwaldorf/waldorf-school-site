@@ -10,10 +10,10 @@ import { ToggleButton, ToggleButtonGroup, Row, FormLabel, Container, Button, For
 const Formulario = ( ) => {
 	const [t] = useTranslation('global')
 	const amounts: { id: string, amountValue: string, amountDesc: string }[] = [
-		{ 'id': 'Nacional1', 'amountValue': '500', 'amountDesc': '$500' },
-		{ 'id': 'Nacional2', 'amountValue': '1000', 'amountDesc': '$1000' },
-		{ 'id': 'Nacional3', 'amountValue': '2000', 'amountDesc': '$2000' },
-		{ 'id': 'Nacional4', 'amountValue': '3000', 'amountDesc': '$3000' },
+		{ 'id': 'Nacional1', 'amountValue': '3000', 'amountDesc': '$3000' },
+		{ 'id': 'Nacional2', 'amountValue': '5000', 'amountDesc': '$5000' },
+		{ 'id': 'Nacional3', 'amountValue': '10000', 'amountDesc': '$10.000' },
+		{ 'id': 'Nacional4', 'amountValue': '25000', 'amountDesc': '$25.000' },
 		{ 'id': 'Internacional1', 'amountValue': '10', 'amountDesc': '$10' },
 		{ 'id': 'Internacional2', 'amountValue': '20', 'amountDesc': '$20' },
 		{ 'id': 'Internacional3', 'amountValue': '50', 'amountDesc': '$50' },
@@ -25,17 +25,17 @@ const Formulario = ( ) => {
 	const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault()
 		if (type_donation === 'Nacional') {
-			if (amount === '500') {
-				window.open('https://mpago.la/1VrR4o1')
-			} else
-			if (amount === '1000') {
-				window.open('https://mpago.la/1jptoNP')
-			} else
-			if (amount === '2000') {
-				window.open('https://mpago.la/15aYqvj')
-			} else
 			if (amount === '3000') {
-				window.open('https://mpago.la/2UoMabb')
+				window.open('https://mpago.la/2Eg942L')
+			} else
+			if (amount === '5000') {
+				window.open('https://mpago.la/12fSbuA')
+			} else
+			if (amount === '10000') {
+				window.open('https://mpago.la/2zVF9sk')
+			} else
+			if (amount === '25000') {
+				window.open('https://mpago.la/14LMXck')
 			} else {
 				window.open('https://link.mercadopago.com.ar/sanjorgeproyectoeduc')
 			}
