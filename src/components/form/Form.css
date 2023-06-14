@@ -1,3 +1,4 @@
+
 .form-container{
     border: solid 1px var(--color-3);
     border-radius: 10px;
@@ -8,16 +9,45 @@
 }
 .toogle-group {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .form-footer, .form-label {
     color: var(--color-3);
 }
 .form-footer p {
-    margin-bottom: 0;
-    font-size: 16px;
+    margin-bottom: .6em;
+    font-size: 15px;
 }
 .form-container h3 {
     font-size: 1.3em;
     color: var(--color-3);
     font-family: Antropos;
 }
+.btnCopy {
+    margin-left: .5em;
+    position: relative;
+}
+@media only screen and (min-width: 960px){
+
+    button[title]:hover:after {
+     content: attr(title);
+     padding: 10px 15px;
+     margin-left: 5px;
+     position: absolute;
+     left: 30px;
+     top: -5px;
+     z-index: 1;
+     background:var(--color-3);
+     border-radius: 5px;
+    }
+
+}
+@media only screen and (max-width: 960px){
+        label {
+        border-radius: 0!important;
+    }
+}
+
+
+

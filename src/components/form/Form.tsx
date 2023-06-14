@@ -108,12 +108,14 @@ const Formulario = ( ) => {
 						</ToggleButton>
 					</ToggleButtonGroup>
 				</Row>
-				<Row className='mb-3'>
+			<Row className='mb-1'>
 					<Col>
 						<FormLabel >
 							{t('donateForm.label1')}
 						</FormLabel>
 					</Col>
+			</Row>
+				<Row className='mb-3 payment'>
 					<Col>
 						<ToggleButtonGroup type='radio' className='toogle-group' defaultValue={getValue('value', 1)} name='tbg2' onChange={handleAmountChange}>
 							<ToggleButton id='tbg-btn-amount-1'
@@ -180,14 +182,15 @@ const Formulario = ( ) => {
 				<p> {t('form.footer_text1')} </p>
 				<p> {t('form.footer_text2')} </p>
 				<p> {t('form.footer_text3')} </p>
-				<p> {t('form.footer_text4')}  ----- 
-					<button type="button" className="btn btn-outline-warning btn-sm btnCopy" data-clipboard-text="0720216420000001184222">
-						Copiar
+				<p> {t('form.footer_text4')} 
+				{/* TODO traducir texto Copiar */}
+					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="0720216420000001184222">
+						<i className='far fa-copy'></i>
 					</button>
 				</p>
-				<p> {t('form.footer_text5')}  ----- 
-					<button type="button" className="btn btn-outline-warning btn-sm btnCopy" data-clipboard-text="SANJORGE.WALDORF.MP">
-						Copiar
+				<p> {t('form.footer_text5')}
+					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="SANJORGE.WALDORF.MP">
+						<i className='far fa-copy'></i>
 					</button>
 				</p> 
 			</Row>
