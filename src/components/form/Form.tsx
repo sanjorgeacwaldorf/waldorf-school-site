@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Form.css'
 import { useTranslation } from 'react-i18next'
 import { ToggleButton, ToggleButtonGroup, Row, FormLabel, Container, Button, FormControl, Form, Col, InputGroup } from 'react-bootstrap'
+import ClipboardJS from 'clipboard'
 
 
 //https://www.paypal.com/paypalme/sanjorgeproyectoeduc/30
@@ -61,6 +62,7 @@ const Formulario = ( ) => {
 	const handleChange = (val: string) => {
 		setTypeDonation(val)
 	}
+
 	const handleAmountChange = (val: string) => {
 		setAmount(val)
 	}
@@ -74,6 +76,8 @@ const Formulario = ( ) => {
 		}
 		return value
 	}
+
+	const clipboard = new ClipboardJS('.btnCopy')
 
 	return (
 		<Container className='form-container mt-4 mt-md-0' >
@@ -176,8 +180,16 @@ const Formulario = ( ) => {
 				<p> {t('form.footer_text1')} </p>
 				<p> {t('form.footer_text2')} </p>
 				<p> {t('form.footer_text3')} </p>
-				<p> {t('form.footer_text4')} </p>
-				<p> {t('form.footer_text5')} </p>
+				<p> {t('form.footer_text4')}  ----- 
+					<button type="button" className="btn btn-outline-warning btn-sm btnCopy" data-clipboard-text="0720216420000001184222">
+						Copiar
+					</button>
+				</p>
+				<p> {t('form.footer_text5')}  ----- 
+					<button type="button" className="btn btn-outline-warning btn-sm btnCopy" data-clipboard-text="SANJORGE.WALDORF.MP">
+						Copiar
+					</button>
+				</p> 
 			</Row>
 		</Container>
 	)
