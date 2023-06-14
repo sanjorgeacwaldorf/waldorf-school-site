@@ -77,7 +77,7 @@ const Formulario = ( ) => {
 		return value
 	}
 
-	const clipboard = new ClipboardJS('.btnCopy')
+	new ClipboardJS('.btnCopy')
 
 	return (
 		<Container className='form-container mt-4 mt-md-0' >
@@ -182,12 +182,12 @@ const Formulario = ( ) => {
 				<p> {t('form.footer_text3')} </p>
 				<p> {t('form.footer_text4')}  ----- 
 					<button type="button" className="btn btn-outline-warning btn-sm btnCopy" data-clipboard-text="0720216420000001184222">
-						Copiar
+						Copiar CBU
 					</button>
 				</p>
 				<p> {t('form.footer_text5')}  ----- 
 					<button type="button" className="btn btn-outline-warning btn-sm btnCopy" data-clipboard-text="SANJORGE.WALDORF.MP">
-						Copiar
+						Copiar Alias
 					</button>
 				</p> 
 			</Row>

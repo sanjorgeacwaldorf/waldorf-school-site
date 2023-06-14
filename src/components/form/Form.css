@@ -21,3 +21,11 @@
     color: var(--color-3);
     font-family: Antropos;
 }
+
+.btnCopy{
+      padding: 4px 8px;
+      font-size: 12px;
+      text-align: center;
+      border-radius: 4px;
+      cursor: pointer;
+    }
