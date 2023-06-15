@@ -6,7 +6,12 @@ import { useTranslation } from 'react-i18next'
 
 const Navbar = ({ IsScrolling }: { IsScrolling: number }) => {
 	const totheBottom = () => {
-		window.scrollTo({ top: 590, left: 0, behavior: 'smooth' })
+		if (window.innerWidth <= 768) {
+			// Es mobile
+			window.scrollTo({ top: 1310, left: 0, behavior: 'smooth' })
+		} else {
+			window.scrollTo({ top: 630, left: 0, behavior: 'smooth' })
+		}
 	}
 	const [t, i18n] = useTranslation('global')
 	return (
