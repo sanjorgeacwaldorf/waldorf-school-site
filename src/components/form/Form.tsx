@@ -9,7 +9,7 @@ import ClipboardJS from 'clipboard'
 
 
 const Formulario = ( ) => {
-	const [t] = useTranslation('global')
+	const [t, i18n] = useTranslation('global')
 	const amounts: { id: string, amountValue: string, amountDesc: string }[] = [
 		{ 'id': 'Nacional1', 'amountValue': '3000', 'amountDesc': '$3000' },
 		{ 'id': 'Nacional2', 'amountValue': '5000', 'amountDesc': '$5000' },
@@ -108,12 +108,14 @@ const Formulario = ( ) => {
 						</ToggleButton>
 					</ToggleButtonGroup>
 				</Row>
-				<Row className='mb-3'>
+				<Row className='mb-1'>
 					<Col>
 						<FormLabel >
 							{t('donateForm.label1')}
 						</FormLabel>
 					</Col>
+			</Row>
+				<Row className='mb-3 payment'>
 					<Col>
 						<ToggleButtonGroup type='radio' className='toogle-group' defaultValue={getValue('value', 1)} name='tbg2' onChange={handleAmountChange}>
 							<ToggleButton id='tbg-btn-amount-1'
@@ -174,20 +176,21 @@ const Formulario = ( ) => {
 					</Button>
 				</Row>
 			</Form>
-			<Row className='form-footer' hidden={type_donation !== 'Nacional'}>
+			<Row className='form-footer' hidden={type_donation !== 'Nacional' || i18n.language !== 'es'}>
 				<hr />
 				<h3> {t('form.footer_title')}</h3>
 				<p> {t('form.footer_text1')} </p>
 				<p> {t('form.footer_text2')} </p>
 				<p> {t('form.footer_text3')} </p>
-				<p> {t('form.footer_text4')}  ----- 
-					<button type="button" className="btn btn-outline-warning btn-sm btnCopy" data-clipboard-text="0720216420000001184222">
-						Copiar CBU
+				<p> {t('form.footer_text4')} 
+					{/* TODO traducir texto Copiar */}
+					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="0720216420000001184222">
+						<i className='far fa-copy'></i>
 					</button>
 				</p>
-				<p> {t('form.footer_text5')}  ----- 
-					<button type="button" className="btn btn-outline-warning btn-sm btnCopy" data-clipboard-text="SANJORGE.WALDORF.MP">
-						Copiar Alias
+				<p> {t('form.footer_text5')}
+					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="SANJORGE.WALDORF.MP">
+						<i className='far fa-copy'></i>
 					</button>
 				</p> 
 			</Row>
