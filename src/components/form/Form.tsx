@@ -15,10 +15,10 @@ const Formulario = ( ) => {
 		{ 'id': 'Nacional2', 'amountValue': '5000', 'amountDesc': '$5000' },
 		{ 'id': 'Nacional3', 'amountValue': '10000', 'amountDesc': '$10.000' },
 		{ 'id': 'Nacional4', 'amountValue': '25000', 'amountDesc': '$25.000' },
-		{ 'id': 'Internacional1', 'amountValue': '10', 'amountDesc': '$10' },
-		{ 'id': 'Internacional2', 'amountValue': '20', 'amountDesc': '$20' },
-		{ 'id': 'Internacional3', 'amountValue': '50', 'amountDesc': '$50' },
-		{ 'id': 'Internacional4', 'amountValue': '100', 'amountDesc': '$100' }
+		{ 'id': 'Internacional1', 'amountValue': '50', 'amountDesc': '$50' },
+		{ 'id': 'Internacional2', 'amountValue': '100', 'amountDesc': '$100' },
+		{ 'id': 'Internacional3', 'amountValue': '500', 'amountDesc': '$500' },
+		{ 'id': 'Internacional4', 'amountValue': '1000', 'amountDesc': '$1000' }
 	]
 	const [amount, setAmount] = useState(amounts[0].amountValue.toString())
 	const [type_donation, setTypeDonation] = useState('Nacional')
@@ -42,17 +42,17 @@ const Formulario = ( ) => {
 			}
 		}
 		if (type_donation === 'Internacional') {
-			if (amount === '10') {
-				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/10')
-			} else
-			if (amount === '20') {
-				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/20')
-			} else
 			if (amount === '50') {
 				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/50')
 			} else
 			if (amount === '100') {
 				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/100')
+			} else
+			if (amount === '500') {
+				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/500')
+			} else
+			if (amount === '1000') {
+				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/1000')
 			} else {
 				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc')
 			}
@@ -114,7 +114,7 @@ const Formulario = ( ) => {
 							{t('donateForm.label1')}
 						</FormLabel>
 					</Col>
-			</Row>
+				</Row>
 				<Row className='mb-3 payment'>
 					<Col>
 						<ToggleButtonGroup type='radio' className='toogle-group' defaultValue={getValue('value', 1)} name='tbg2' onChange={handleAmountChange}>
@@ -184,7 +184,7 @@ const Formulario = ( ) => {
 				<p> {t('form.footer_text3')} </p>
 				<p> {t('form.footer_text4')} 
 					{/* TODO traducir texto Copiar */}
-					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="0720216420000001184222">
+					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="0720216420000002687072">
 						<i className='far fa-copy'></i>
 					</button>
 				</p>
