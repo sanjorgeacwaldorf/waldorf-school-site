@@ -189,7 +189,7 @@ const Formulario = ( ) => {
 					</button>
 				</p>
 				<p> {t('form.footer_text5')}
-					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="SANJORGE.WALDORF.MP">
+					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="donaciones.sanjorge">
 						<i className='far fa-copy'></i>
 					</button>
 				</p> 
