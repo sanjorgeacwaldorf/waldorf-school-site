@@ -33,6 +33,7 @@ function App() {
 		'@context': 'https://schema.org',
 		'@type': 'Organization',
 		'name': t('seo.title'),
+		'url': 'https://sanjorgeac.com.ar/',
 		'logo': 'https://sanjorgeac.com.ar/logo.png',
 		'description': t('seo.description'),
 		'contactPoint': {
@@ -51,6 +52,35 @@ function App() {
 		}
 	}
 
+	const datosEstructuradosEducationalOrganization =  {
+		"@context": "https://schema.org",
+		"@type": "EducationalOrganization",
+		"name": t('seo.title'),
+		"description": t('seo.description'),
+		"url": "https://sanjorgeac.com.ar/",
+		"logo": "https://sanjorgeac.com.ar/logo.png",
+		"address": {
+			'@type': 'PostalAddress',
+			'streetAddress': 'Isaac Newton 5827',
+			'addressLocality': 'Villa Belgrano',
+			'addressRegion': 'Córdoba Capital',
+			'postalCode': '5006',
+			'addressCountry': 'Argentina'
+		},
+		"telephone": " '+54-9-3543-428329'",
+		"email": "donaciones.sanjorge.waldorf@gmail.com",
+		"openingHours": "Mo-Fr 08:00-13:00",
+		"image": [
+		  "https://www.ejemploescuelaprimaria.com/imagen1.jpg",
+		  "https://www.ejemploescuelaprimaria.com/imagen2.jpg"
+		],
+		"sameAs": [
+		  "https://www.facebook.com/ejemploescuelaprimaria",
+		  "https://twitter.com/ejemploescuela",
+		  "https://www.instagram.com/ejemploescuelaprimaria"
+		]
+	  }
+
 	const datosEstructuradosLocalBusiness = {
 		'@context': 'https://schema.org',
 		'@type': 'LocalBusiness',
@@ -66,6 +96,7 @@ function App() {
 		'parentOrganization': {
 			'@type': 'Organization',
 			'name': t('seo.title'),
+			'url': 'https://sanjorgeac.com.ar/',
 			'logo': 'https://sanjorgeac.com.ar/logo.png',
 			'description': t('seo.description'),
 			'contactPoint': {
