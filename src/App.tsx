@@ -52,6 +52,21 @@ function App() {
 		}
 	}
 
+	const datosEstructuradosVideoObject = {
+		'@context': 'https://schema.org',
+		'@type': 'VideoObject',
+		'name': t('seo.title'),
+		'description': t('seo.description'),
+		'thumbnailUrl': [
+			'https://sanjorgeac.com.ar/static/media/poster.6d862d7e5c0f1a5e7248.jpg',
+		],
+		'uploadDate': '2022-08-01T08:00:00+08:00',
+		'duration': 'PT30S',
+		'contentUrl': 'https://sanjorgeac.com.ar/static/media/video_landing_30s_2.6a4cfbf2f476b7bb6927.webm',
+		'embedUrl': 'https://sanjorgeac.com.ar/'
+	}
+
+
 	// const datosEstructuradosEducationalOrganization =  {
 	// 	'@context': 'https://schema.org',
 	// 	'@type': 'EducationalOrganization',
@@ -140,6 +155,8 @@ function App() {
 								
 				<script type='application/ld+json'>{JSON.stringify(datosEstructuradosOrganization)}</script>
 				<script type='application/ld+json'>{JSON.stringify(datosEstructuradosLocalBusiness) }</script>			
+				<script type='application/ld+json'>{JSON.stringify(datosEstructuradosVideoObject) }</script>
+				
 			</Helmet>
 			<Navbar IsScrolling={scrollHeight} />
 			<Landing />

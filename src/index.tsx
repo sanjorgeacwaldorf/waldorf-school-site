@@ -16,6 +16,7 @@ import global_de from './translations/de/global.json'
 i18next
 	.use(LanguageDetector)
 	.init({
+		fallbackLng: 'es',
 		interpolation: { escapeValue: false },
 		detection: {},
 		resources: {
