@@ -54,11 +54,12 @@
   "form" : {
     "title" : "Arbeiten Sie mit Ihrer Online-Spende zusammen",
     "footer_title" : "Oder eine Überweisung tätigen",
-    "footer_text1": "Als nächstes kommt...",
-    "footer_text2": "",
-    "footer_text3": "",
-    "footer_text4": "",
-    "footer_text5": ""
+    "footer_subtitle" : "Überweisungen innerhalb Argentiniens:",
+    "footer_text1": "SAN JORGE PROY EDUC WALDORF ASOC CIVIL",
+    "footer_text2": "CUIT: 30-71425482-7",
+    "footer_text3": "CUENTA CORRIENTE: 216 - 000118422",
+    "footer_text4": "CBU: 0720216420000002687072",
+    "footer_text5": "ALIAS: donaciones.sanjorge"
   },
   "donateForm" : {
     "toogleN" : "Nacional",

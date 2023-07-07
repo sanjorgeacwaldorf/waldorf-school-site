@@ -3,6 +3,8 @@ import './Form.css'
 import { useTranslation } from 'react-i18next'
 import { ToggleButton, ToggleButtonGroup, Row, FormLabel, Container, Button, FormControl, Form, Col, InputGroup } from 'react-bootstrap'
 import ClipboardJS from 'clipboard'
+import ArgFlag from '../../media/ar.png'
+
 
 
 //https://www.paypal.com/paypalme/sanjorgeproyectoeduc/30
@@ -176,9 +178,10 @@ const Formulario = ( ) => {
 					</Button>
 				</Row>
 			</Form>
-			<Row className='form-footer' hidden={type_donation !== 'Nacional' || i18n.language !== 'es'}>
+			<Row className='form-footer'>
 				<hr />
 				<h3> {t('form.footer_title')}</h3>
+				<p> <img src={ArgFlag} height="40" width="40" alt='Argentina' /> {t('form.footer_subtitle')} </p>
 				<p> {t('form.footer_text1')} </p>
 				<p> {t('form.footer_text2')} </p>
 				<p> {t('form.footer_text3')} </p>
@@ -193,6 +196,7 @@ const Formulario = ( ) => {
 						<i className='far fa-copy'></i>
 					</button>
 				</p> 
+
 			</Row>
 		</Container>
 	)
