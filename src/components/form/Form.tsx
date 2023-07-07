@@ -11,7 +11,7 @@ import ArgFlag from '../../media/ar.png'
 
 
 const Formulario = ( ) => {
-	const [t, i18n] = useTranslation('global')
+	const [t] = useTranslation('global')
 	const amounts: { id: string, amountValue: string, amountDesc: string }[] = [
 		{ 'id': 'Nacional1', 'amountValue': '3000', 'amountDesc': '$3000' },
 		{ 'id': 'Nacional2', 'amountValue': '5000', 'amountDesc': '$5000' },
