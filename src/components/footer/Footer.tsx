@@ -63,6 +63,24 @@ const Footer = () => {
 
 									</p>
 									<p><i className="fas fa-phone me-3"></i> +54 9 3543 428329</p>
+									<br></br>
+									<h6 className="text-uppercase fw-bold mb-4 footer-title">
+										<i className="fas fa-comments me-3 contact_title"></i>Inscripciones y Consultas
+									</h6>
+									<p>
+										<i className="fas fa-envelope me-3"></i>
+										<a className='text-reset text-decoration-none' href="mailto:comision.coord@gmail.com?Subject=Consultas">
+										comision.coord@gmail.com
+										</a>
+
+									</p>
+								
+								
+								
+								
+								
+								
+								
 								</div>
 							</div>
 						</div>

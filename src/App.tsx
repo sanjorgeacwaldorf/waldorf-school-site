@@ -34,7 +34,7 @@ function App() {
 		'@type': 'Organization',
 		'name': t('seo.title'),
 		'url': 'https://sanjorgeac.com.ar/',
-		'logo': 'https://sanjorgeac.com.ar/logo.png',
+		'logo': 'https://sanjorgeac.com.ar/LogoEscuelaJardinPrimaria.webp',
 		'description': t('seo.description'),
 		'contactPoint': {
 			'@type': 'ContactPoint',
@@ -112,7 +112,7 @@ function App() {
 			'@type': 'Organization',
 			'name': t('seo.title'),
 			'url': 'https://sanjorgeac.com.ar/',
-			'logo': 'https://sanjorgeac.com.ar/logo.png',
+			'logo': 'https://sanjorgeac.com.ar/LogoEscuelaJardinPrimaria.webp',
 			'description': t('seo.description'),
 			'contactPoint': {
 				'@type': 'ContactPoint',
@@ -144,14 +144,14 @@ function App() {
   
 				<meta property='og:title' content={t('seo.title')}/>
 				<meta property='og:description' content={t('seo.description')} />
-				<meta property='og:image' content='https://sanjorgeac.com.ar/logo.png' />
+				<meta property='og:image' content='https://sanjorgeac.com.ar/LogoEscuelaJardinPrimaria.webp' />
 				<meta property='og:url' content='https://sanjorgeac.com.ar/' />
 				<meta property='og:type' content='website' />
 				
 				<meta name='twitter:card' content='summary_large_image' />
 				<meta name='twitter:title' content={t('seo.title')} />
 				<meta name='twitter:description' content={t('seo.description')} />
-				<meta name='twitter:image' content='https://sanjorgeac.com.ar/logo.png' />
+				<meta name='twitter:image' content='https://sanjorgeac.com.ar/LogoEscuelaJardinPrimaria.webp' />
 								
 				<script type='application/ld+json'>{JSON.stringify(datosEstructuradosOrganization)}</script>
 				<script type='application/ld+json'>{JSON.stringify(datosEstructuradosLocalBusiness) }</script>			

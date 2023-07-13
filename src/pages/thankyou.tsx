@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import logoPuente from '../media/logo.png'
+import logoPuente from '../media/LogoEscuelaJardinPrimaria.webp'
 
 
 import '../App.css'

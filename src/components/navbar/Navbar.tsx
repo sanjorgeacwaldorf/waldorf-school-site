@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import logoPuente from '../../media/logo.png'
+import logoPuente from '../../media/LogoEscuelaJardinPrimaria.webp'
 
 import { useTranslation } from 'react-i18next'
 
