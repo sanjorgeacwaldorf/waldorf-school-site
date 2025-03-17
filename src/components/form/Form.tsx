@@ -31,33 +31,33 @@ const Formulario = ( ) => {
 			if (amount === '3000') {
 				window.open('https://mpago.la/2Eg942L')
 			} else
-			if (amount === '5000') {
-				window.open('https://mpago.la/12fSbuA')
-			} else
-			if (amount === '10000') {
-				window.open('https://mpago.la/2zVF9sk')
-			} else
-			if (amount === '25000') {
-				window.open('https://mpago.la/14LMXck')
-			} else {
-				window.open('https://link.mercadopago.com.ar/sanjorgeproyectoeduc')
-			}
+				if (amount === '5000') {
+					window.open('https://mpago.la/12fSbuA')
+				} else
+					if (amount === '10000') {
+						window.open('https://mpago.la/2zVF9sk')
+					} else
+						if (amount === '25000') {
+							window.open('https://mpago.la/14LMXck')
+						} else {
+							window.open('https://link.mercadopago.com.ar/sanjorgeproyectoeduc')
+						}
 		}
 		if (type_donation === 'Internacional') {
 			if (amount === '50') {
 				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/50')
 			} else
-			if (amount === '100') {
-				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/100')
-			} else
-			if (amount === '500') {
-				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/500')
-			} else
-			if (amount === '1000') {
-				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/1000')
-			} else {
-				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc')
-			}
+				if (amount === '100') {
+					window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/100')
+				} else
+					if (amount === '500') {
+						window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/500')
+					} else
+						if (amount === '1000') {
+							window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/1000')
+						} else {
+							window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc')
+						}
 		}
 	}
 
