@@ -1,8 +1,8 @@
 import React from 'react'
 import './Landing.css'
-import landingVideoMP4 from '../../media/video_landing_30s_2.mp4'
-import landingVideoWEBM from '../../media/video_landing_30s_2.webm'
-import landingVideoPoster from '../../media/poster.jpg'
+//import landingVideoMP4 from '../../media/video_landing_30s_2.mp4'
+//import landingVideoWEBM from '../../media/video_landing_30s_2.webm'
+//import landingVideoPoster from '../../media/poster.jpg'
 import { useTranslation } from 'react-i18next'
 
 
