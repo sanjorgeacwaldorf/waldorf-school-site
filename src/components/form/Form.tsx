@@ -180,24 +180,24 @@ const Formulario = ( ) => {
 				<p> {t('form.footer_text3')} </p>
 				<p> {t('form.footer_text4')} 
 					{/* TODO traducir texto Copiar */}
-					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="0720216420000002687072">
+					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="0720216420000003320936">
 						<i className='far fa-copy'></i>
 					</button>
 				</p>
 				<p> {t('form.footer_text5')}
-					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="donaciones.sanjorge">
+					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="ARCANGEL.MICAEL">
 						<i className='far fa-copy'></i>
 					</button>
 				</p> 
 				<p> {t('form.footer_text6')} </p>
 				<p> {t('form.footer_text7')} 
 					{/* TODO traducir texto Copiar */}
-					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="0720216420000002687072">
+					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="0720216421000003321091">
 						<i className='far fa-copy'></i>
 					</button>
 				</p>
 				<p> {t('form.footer_text8')}
-					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="donaciones.sanjorge">
+					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="ARCANGEL.MICAEL.DOL">
 						<i className='far fa-copy'></i>
 					</button>
 				</p> 
