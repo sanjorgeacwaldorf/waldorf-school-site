@@ -29,35 +29,28 @@ const Formulario = ( ) => {
 		event.preventDefault()
 		if (type_donation === 'Nacional') {
 			if (amount === '3000') {
-				window.open('https://mpago.la/2Eg942L')
+				window.open('https://www.globalgetnet.com/get-link-and-pay/eyJjb3VudHJ5IjoiQVIiLCJ0ZW5hbnQiOiJzYW50YW5kZXIiLCJzaG9ydF9pZCI6InU5bmFYVFoxS0YzZkNBRDhGSG85bWQifQ==')
 			} else
 				if (amount === '5000') {
-					window.open('https://mpago.la/12fSbuA')
+					window.open('https://www.globalgetnet.com/get-link-and-pay/eyJjb3VudHJ5IjoiQVIiLCJ0ZW5hbnQiOiJzYW50YW5kZXIiLCJzaG9ydF9pZCI6ImJLVmkyV2RTMUtyb0xnaEJaTlJycDgifQ==')
 				} else
 					if (amount === '10000') {
-						window.open('https://mpago.la/2zVF9sk')
+						window.open('https://www.globalgetnet.com/get-link-and-pay/eyJjb3VudHJ5IjoiQVIiLCJ0ZW5hbnQiOiJzYW50YW5kZXIiLCJzaG9ydF9pZCI6IjU0Y1RFZGFUNzJNQWtKemFHTjc0OXAifQ==')
 					} else
 						if (amount === '25000') {
-							window.open('https://mpago.la/14LMXck')
+							window.open('https://www.globalgetnet.com/get-link-and-pay/eyJjb3VudHJ5IjoiQVIiLCJ0ZW5hbnQiOiJzYW50YW5kZXIiLCJzaG9ydF9pZCI6InI5YTl2UjliODllNWY2c2RqdkhYaW8ifQ==')
 						} else {
 							window.open('https://link.mercadopago.com.ar/sanjorgeproyectoeduc')
 						}
 		}
 		if (type_donation === 'Internacional') {
-			if (amount === '50') {
-				window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/50')
-			} else
-				if (amount === '100') {
-					window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/100')
-				} else
-					if (amount === '500') {
-						window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/500')
-					} else
-						if (amount === '1000') {
-							window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc/1000')
-						} else {
-							window.open('https://www.paypal.com/paypalme/sanjorgeproyectoeduc')
-						}
+			const paypal_url = t('form.paypal_url')
+			if (amount !== '232') {
+				window.open(paypal_url+'/'+amount)
+			} else{
+				window.open(paypal_url)
+			}
+				
 		}
 	}
 
@@ -174,7 +167,7 @@ const Formulario = ( ) => {
 				</Row>
 				<Row className='mb-3'>
 					<Button variant='primary' type='submit'>
-						{type_donation === 'Nacional' ? t('navbar.donate') + ' - Mercado Pago' : t('navbar.donate') + ' - PayPal'}
+						{type_donation === 'Nacional' ? t('navbar.donate') : t('navbar.donate') + ' - PayPal'}
 					</Button>
 				</Row>
 			</Form>
@@ -192,6 +185,18 @@ const Formulario = ( ) => {
 					</button>
 				</p>
 				<p> {t('form.footer_text5')}
+					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="donaciones.sanjorge">
+						<i className='far fa-copy'></i>
+					</button>
+				</p> 
+				<p> {t('form.footer_text6')} </p>
+				<p> {t('form.footer_text7')} 
+					{/* TODO traducir texto Copiar */}
+					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="0720216420000002687072">
+						<i className='far fa-copy'></i>
+					</button>
+				</p>
+				<p> {t('form.footer_text8')}
 					<button type="button" className="btn btn-outline-primary btn-sm btnCopy" title="Copiar" data-clipboard-text="donaciones.sanjorge">
 						<i className='far fa-copy'></i>
 					</button>

@@ -33,14 +33,14 @@ function App() {
 		'@context': 'https://schema.org',
 		'@type': 'Organization',
 		'name': t('seo.title'),
-		'url': 'https://sanjorgeac.com.ar/',
-		'logo': 'https://sanjorgeac.com.ar/LogoEscuelaJardinPrimaria.webp',
+		'url': 'https://secundariamicael.com.ar/',
+		'logo': 'https://secundariamicael.com.ar/LogoEscuelaJardinPrimaria.webp',
 		'description': t('seo.description'),
 		'contactPoint': {
 			'@type': 'ContactPoint',
 			'telephone': '+54 9 3543 428329',
 			'email': 'donaciones.sanjorge.waldorf@gmail.com',
-			'url': 'https://sanjorgeac.com.ar/'
+			'url': 'https://secundariamicael.com.ar/'
 		},
 		'address': {
 			'@type': 'PostalAddress',
@@ -58,12 +58,12 @@ function App() {
 		'name': t('seo.title'),
 		'description': t('seo.description'),
 		'thumbnailUrl': [
-			'https://sanjorgeac.com.ar/static/media/poster.6d862d7e5c0f1a5e7248.jpg',
+			'https://secundariamicael.com.ar/static/media/poster.6d862d7e5c0f1a5e7248.jpg',
 		],
 		'uploadDate': '2022-08-01T08:00:00+08:00',
 		'duration': 'PT30S',
-		'contentUrl': 'https://sanjorgeac.com.ar/static/media/video_landing_30s_2.6a4cfbf2f476b7bb6927.webm',
-		'embedUrl': 'https://sanjorgeac.com.ar/'
+		'contentUrl': 'https://secundariamicael.com.ar/static/media/video_landing_30s_2.6a4cfbf2f476b7bb6927.webm',
+		'embedUrl': 'https://secundariamicael.com.ar/'
 	}
 
 
@@ -72,8 +72,8 @@ function App() {
 	// 	'@type': 'EducationalOrganization',
 	// 	'name': t('seo.title'),
 	// 	'description': t('seo.description'),
-	// 	'url': 'https://sanjorgeac.com.ar/',
-	// 	'logo': 'https://sanjorgeac.com.ar/logo.png',
+	// 	'url': 'https://secundariamicael.com.ar/',
+	// 	'logo': 'https://secundariamicael.com.ar/logo.png',
 	// 	'address': {
 	// 		'@type': 'PostalAddress',
 	// 		'streetAddress': 'Isaac Newton 5827',
@@ -111,14 +111,14 @@ function App() {
 		'parentOrganization': {
 			'@type': 'Organization',
 			'name': t('seo.title'),
-			'url': 'https://sanjorgeac.com.ar/',
-			'logo': 'https://sanjorgeac.com.ar/LogoEscuelaJardinPrimaria.webp',
+			'url': 'https://secundariamicael.com.ar/',
+			'logo': 'https://secundariamicael.com.ar/LogoEscuelaJardinPrimaria.webp',
 			'description': t('seo.description'),
 			'contactPoint': {
 				'@type': 'ContactPoint',
 				'telephone': '+54 9 3543 428329',
 				'email': 'donaciones.sanjorge.waldorf@gmail.com',
-				'url': 'https://sanjorgeac.com.ar/'
+				'url': 'https://secundariamicael.com.ar/'
 			},
 			'address': {
 				'@type': 'PostalAddress',
@@ -144,14 +144,14 @@ function App() {
   
 				<meta property='og:title' content={t('seo.title')}/>
 				<meta property='og:description' content={t('seo.description')} />
-				<meta property='og:image' content='https://sanjorgeac.com.ar/LogoEscuelaJardinPrimaria.webp' />
-				<meta property='og:url' content='https://sanjorgeac.com.ar/' />
+				<meta property='og:image' content='https://secundariamicael.com.ar/LogoEscuelaJardinPrimaria.webp' />
+				<meta property='og:url' content='https://secundariamicael.com.ar/' />
 				<meta property='og:type' content='website' />
 				
 				<meta name='twitter:card' content='summary_large_image' />
 				<meta name='twitter:title' content={t('seo.title')} />
 				<meta name='twitter:description' content={t('seo.description')} />
-				<meta name='twitter:image' content='https://sanjorgeac.com.ar/LogoEscuelaJardinPrimaria.webp' />
+				<meta name='twitter:image' content='https://secundariamicael.com.ar/LogoEscuelaJardinPrimaria.webp' />
 								
 				<script type='application/ld+json'>{JSON.stringify(datosEstructuradosOrganization)}</script>
 				<script type='application/ld+json'>{JSON.stringify(datosEstructuradosLocalBusiness) }</script>			
@@ -161,8 +161,6 @@ function App() {
 			<Navbar IsScrolling={scrollHeight} />
 			<Landing />
 			<Donate />
-			<About2 />
-			<Info />
 			<Info2 />
 			<Footer />
 		</div>

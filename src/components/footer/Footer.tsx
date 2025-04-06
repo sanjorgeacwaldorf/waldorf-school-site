@@ -54,33 +54,15 @@ const Footer = () => {
 									<h6 className="text-uppercase fw-bold mb-4 footer-title">
 										<i className="fas fa-child me-3 contact_title"></i>{t('footer.contact')}
 									</h6>
-									<p><i className="fas fa-home me-3"></i> Isaac Newton 5827, Córdoba, Argentina</p>
+									<p><i className="fas fa-home me-3"></i> Isaac Newton 5760, Córdoba, Argentina</p>
 									<p>
 										<i className="fas fa-envelope me-3"></i>
-										<a className='text-reset text-decoration-none' href="mailto:donaciones.sanjorge.waldorf@gmail.com?Subject=Gracias%20-%20Thank%20you%20-%20Dank">
-                                            donaciones.sanjorge.waldorf@gmail.com
+										<a className='text-reset text-decoration-none' href="mailto:secundaria.arcangelmicael@gmail.com?Subject=Gracias%20-%20Thank%20you%20-%20Dank">
+											secundaria.arcangelmicael@gmail.com
 										</a>
-
 									</p>
-									<p><i className="fas fa-phone me-3"></i> +54 9 3543 428329</p>
+									<p><i className="fas fa-phone me-3"></i>+54 9 3512 25-0119</p>
 									<br></br>
-									<h6 className="text-uppercase fw-bold mb-4 footer-title">
-										<i className="fas fa-comments me-3 contact_title"></i>Inscripciones y Consultas
-									</h6>
-									<p>
-										<i className="fas fa-envelope me-3"></i>
-										<a className='text-reset text-decoration-none' href="mailto:comision.coord@gmail.com?Subject=Consultas">
-										comision.coord@gmail.com
-										</a>
-
-									</p>
-								
-								
-								
-								
-								
-								
-								
 								</div>
 							</div>
 						</div>

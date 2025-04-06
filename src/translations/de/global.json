@@ -46,7 +46,7 @@
   },
   "donate" : {
     "title" : "Helfen Sie uns, das Haus zu kaufen, in dem unsere geliebte Schule arbeitet!",
-    "text1": "Indem Sie einen Beitrag für den Garten Puente de Estrellas und die Micael-Grundschule leisten, tragen Sie dazu bei, dass das Haus, in dem wir leben, der Ort ist, an dem wir Wurzeln schlagen, und garantieren so die Kontinuität des Gemeinschaftsprojekts, das wir so sehr pflegen Liebe und Engagement.",
+    "text1": "Indem Sie einen Beitrag für den Oberschule leisten, tragen Sie dazu bei, dass das Haus, in dem wir leben, der Ort ist, an dem wir Wurzeln schlagen, und garantieren so die Kontinuität des Gemeinschaftsprojekts, das wir so sehr pflegen Liebe und Engagement.",
     "text2": "Die Spende von Zeit, Geldern und Ressourcen an eine Organisation, die an den Werten der Brüderlichkeit und Menschlichkeit ausgerichtet ist, erzeugt einen Dominoeffekt von Vorteilen, die sich weiterhin wiederholen und deren Umfang multiplikatorisch ist. Ob groß oder klein, jede Lieferung ist sinnvoll und hoch geschätzt.",
     "text3": "Ihre Unterstützung hat eine große Wirkung und macht einen Unterschied in unserer Gemeinschaft!!",
     "text4": "Vielen Dank!"
@@ -56,11 +56,16 @@
     "title" : "Arbeiten Sie mit Ihrer Online-Spende zusammen",
     "footer_title" : "Oder eine Überweisung tätigen",
     "footer_subtitle" : "Überweisungen innerhalb Argentiniens:",
-    "footer_text1": "SAN JORGE PROY EDUC WALDORF ASOC CIVIL",
-    "footer_text2": "CUIT: 30-71425482-7",
-    "footer_text3": "CUENTA CORRIENTE: 216 - 000118422",
-    "footer_text4": "CBU: 0720216420000002687072",
-    "footer_text5": "ALIAS: donaciones.sanjorge"
+    "footer_text1": "Asociación Civil Rudolf Steiner",
+    "footer_text2": "CUIT: 33-71858855-9",
+    "footer_text3": "CUENTA CORRIENTE: 216-33209/3",
+    "footer_text4": "CBU: 0720216420000003320936",
+    "footer_text5": "ALIAS: ARCANGEL.MICAEL",
+    "footer_text6": "CUENTA CORRIENTE EN DOLARES: 216-33210/9",
+    "footer_text7": "CBU: 0720216421000003321091",
+    "footer_text8": "ALIAS: ARCANGEL.MICAEL.DOL",
+    "paypal_url": "https://www.paypal.com/paypalme/arcangelmicael"
+
   },
   "donateForm" : {
     "toogleN" : "Nacional",

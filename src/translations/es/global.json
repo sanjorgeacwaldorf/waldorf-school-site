@@ -22,8 +22,8 @@
     "donate": "Donar"
   },
   "landing" : {
-    "title": "Queremos que seas parte de nuestro sueño...",
-    "text": "| Escuela Secundaria Arcangel Micael | Pedagogia Waldorf |"
+    "title": "Escuela secundaria Arcángel Micael",
+    "text": "Primera escuela secundaria de PEDAGOGÍA WALDORF en Córdoba Capital."
   },
   "about" : {
     "title": "Y el Sueño Comenzaba…",
@@ -34,7 +34,7 @@
     "text" : "Agradecemos tu aporte para que los niños y niñas que hoy asisten a nuestra escuela sean agentes de transformación en el mundo de mañana."
   },
   "info2" : {
-    "text" : "Recibir al niño con veneración y respeto, educarlo con amor y conducirlo hacia la libertad."
+    "text" : "La libertad se ejercita a través de la voluntad, se vive a través del sentimiento y se reconoce a través del pensamiento."
   },
   "about2" : {
     "title" : "Un Poco de Nuestra Historia",
@@ -57,11 +57,15 @@
     "title" : "Colabora con Tu Donacion Online",
     "footer_title" : "O Haciendo una Transferencia",
     "footer_subtitle" : "Transferencias dentro de Argentina:",
-    "footer_text1": "SAN JORGE PROY EDUC WALDORF ASOC CIVIL",
-    "footer_text2": "CUIT: 30-71425482-7",
-    "footer_text3": "CUENTA CORRIENTE: 216 - 000118422",
-    "footer_text4": "CBU: 0720216420000002687072",
-    "footer_text5": "ALIAS: donaciones.sanjorge"
+    "footer_text1": "Asociación Civil Rudolf Steiner",
+    "footer_text2": "CUIT: 33-71858855-9",
+    "footer_text3": "CUENTA CORRIENTE: 216-33209/3",
+    "footer_text4": "CBU: 0720216420000003320936",
+    "footer_text5": "ALIAS: ARCANGEL.MICAEL",
+    "footer_text6": "CUENTA CORRIENTE EN DOLARES: 216-33210/9",
+    "footer_text7": "CBU: 0720216421000003321091",
+    "footer_text8": "ALIAS: ARCANGEL.MICAEL.DOL",
+    "paypal_url": "https://www.paypal.com/paypalme/arcangelmicael"
   },
   "donateForm" : {
     "toogleN" : "Nacional",

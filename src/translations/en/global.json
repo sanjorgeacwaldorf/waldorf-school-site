@@ -47,7 +47,7 @@
   },
   "donate" : {
     "title" : "Help us buy the house where our beloved school works!",
-    "text1": "By making a contribution to the Puente de Estrellas Garden and Micael Elementary School, you collaborate so that the house we inhabit is the place where we put down roots, and thus guarantee the continuity of the community project that we have been caring for with so much love and commitment.",
+    "text1": "By making a contribution to the Arcangel Micael High School, you collaborate so that the house we inhabit is the place where we put down roots, and thus guarantee the continuity of the community project that we have been caring for with so much love and commitment.",
     "text2": "The donation of time, funds and resources, to an organization aligned with values ​​of fraternity and humanity, creates a domino effect of benefits that continue to be replicated and whose scope is multiplier. Whether big or small, every delivery is meaningful and deeply valued.",
     "text3": "Your support has a great impact and makes a difference in our community!!",
     "text4": "Thank you very much!"
@@ -57,11 +57,15 @@
     "title" : "Collaborate with Your Online Donation",
     "footer_title" : "Or Making a Transfer",
     "footer_subtitle" : "Transfers inside Argentina:",
-    "footer_text1": "SAN JORGE PROY EDUC WALDORF ASOC CIVIL",
-    "footer_text2": "CUIT: 30-71425482-7",
-    "footer_text3": "CUENTA CORRIENTE: 216 - 000118422",
-    "footer_text4": "CBU: 0720216420000002687072",
-    "footer_text5": "ALIAS: donaciones.sanjorge"
+   "footer_text1": "Asociación Civil Rudolf Steiner",
+    "footer_text2": "CUIT: 33-71858855-9",
+    "footer_text3": "CUENTA CORRIENTE: 216-33209/3",
+    "footer_text4": "CBU: 0720216420000003320936",
+    "footer_text5": "ALIAS: ARCANGEL.MICAEL",
+    "footer_text6": "CUENTA CORRIENTE EN DOLARES: 216-33210/9",
+    "footer_text7": "CBU: 0720216421000003321091",
+    "footer_text8": "ALIAS: ARCANGEL.MICAEL.DOL",
+    "paypal_url": "https://www.paypal.com/paypalme/arcangelmicael"
   },
   "donateForm" : {
     "toogleN" : "Nacional",

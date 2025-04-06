@@ -9,7 +9,22 @@
     align-items: center;
     font-family: Antropos;
 }
-
+.landing-container-box {
+   
+    background-image: url("../../media/fondoAcuarela.png");
+  
+    /* Add the blur effect */
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .video {
     object-fit: cover;
     width: 100%;
@@ -40,16 +55,16 @@
 }
 
 .landing-container > h1 {
-    color: white;
+    color: #433a89;
     font-size: 100px;
     text-align: center;
 }
 
 .landing-container > p {
     margin-top: 8px;
-    color: white;
-    font-size: 20px;
-    font-weight: lighter;
+    color: #ac3788;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 
@@ -61,7 +76,7 @@
 
     .landing-container > p {
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
         width: 85%;
     }
 }
