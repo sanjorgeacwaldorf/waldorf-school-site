@@ -11,7 +11,7 @@
 }
 .landing-container-box {
    
-    background-image: url("../../media/fondoAcuarela.png");
+    /*background-image: url("../../media/fondoAcuarela.png");*/
   
     /* Add the blur effect */
     filter: brightness(100%);
@@ -55,16 +55,15 @@
 }
 
 .landing-container > h1 {
-    color: #433a89;
+    color: #ffffff;
     font-size: 100px;
     text-align: center;
 }
 
 .landing-container > p {
     margin-top: 8px;
-    color: #ac3788;
+    color: #ffffff;
     font-size: 30px;
-    font-weight: bold;
 }
 
 
