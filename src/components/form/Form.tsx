@@ -38,7 +38,7 @@ const Formulario = ( ) => {
 						window.open('https://mpago.la/1GoioLT')
 					} else
 						if (amount === '25000') {
-							window.open('http://Link.mercadopago.com.ar/arcangelmicael')
+							window.open('https://mpago.la/2Zcsge4')
 						} else {
 							window.open('http://Link.mercadopago.com.ar/arcangelmicael')
 						}
