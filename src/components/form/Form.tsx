@@ -29,18 +29,18 @@ const Formulario = ( ) => {
 		event.preventDefault()
 		if (type_donation === 'Nacional') {
 			if (amount === '3000') {
-				window.open('https://www.globalgetnet.com/get-link-and-pay/eyJjb3VudHJ5IjoiQVIiLCJ0ZW5hbnQiOiJzYW50YW5kZXIiLCJzaG9ydF9pZCI6InU5bmFYVFoxS0YzZkNBRDhGSG85bWQifQ==')
+				window.open('https://mpago.la/24VqmgK')
 			} else
 				if (amount === '5000') {
-					window.open('https://www.globalgetnet.com/get-link-and-pay/eyJjb3VudHJ5IjoiQVIiLCJ0ZW5hbnQiOiJzYW50YW5kZXIiLCJzaG9ydF9pZCI6ImJLVmkyV2RTMUtyb0xnaEJaTlJycDgifQ==')
+					window.open('https://mpago.la/2kmk9rS')
 				} else
 					if (amount === '10000') {
-						window.open('https://www.globalgetnet.com/get-link-and-pay/eyJjb3VudHJ5IjoiQVIiLCJ0ZW5hbnQiOiJzYW50YW5kZXIiLCJzaG9ydF9pZCI6IjU0Y1RFZGFUNzJNQWtKemFHTjc0OXAifQ==')
+						window.open('https://mpago.la/1GoioLT')
 					} else
 						if (amount === '25000') {
-							window.open('https://www.globalgetnet.com/get-link-and-pay/eyJjb3VudHJ5IjoiQVIiLCJ0ZW5hbnQiOiJzYW50YW5kZXIiLCJzaG9ydF9pZCI6InI5YTl2UjliODllNWY2c2RqdkhYaW8ifQ==')
+							window.open('http://Link.mercadopago.com.ar/arcangelmicael')
 						} else {
-							window.open('https://link.mercadopago.com.ar/sanjorgeproyectoeduc')
+							window.open('http://Link.mercadopago.com.ar/arcangelmicael')
 						}
 		}
 		if (type_donation === 'Internacional') {
