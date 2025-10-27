@@ -57,11 +57,11 @@ const Footer = () => {
 									<p><i className="fas fa-home me-3"></i> Isaac Newton 5760, Córdoba, Argentina</p>
 									<p>
 										<i className="fas fa-envelope me-3"></i>
-										<a className='text-reset text-decoration-none' href="mailto:secundaria.arcangelmicael@gmail.com?Subject=Gracias%20-%20Thank%20you%20-%20Dank">
-											secundaria.arcangelmicael@gmail.com
+										<a className='text-reset text-decoration-none' href="mailto:admisiones@arcangelmicael.com.ar?Subject=Gracias%20-%20Thank%20you%20-%20Dank">
+											admisiones@arcangelmicael.com.ar
 										</a>
 									</p>
-									<p><i className="fas fa-phone me-3"></i>+54 9 3512 25-0119</p>
+									<p><i className="fas fa-phone me-3"></i>+54 9 351 2084560</p>
 									<br></br>
 								</div>
 							</div>
